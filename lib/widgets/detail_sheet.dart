@@ -234,9 +234,9 @@ class DetailSheet extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(12),
                               ),
                             ),
-                            icon: const Icon(Icons.open_in_new, size: 18),
-                            label: const Text('원문 소스 보기'),
-                            onPressed: () => _openSourceUrl(context),
+                            icon: const Icon(Icons.open_in_browser_rounded, size: 20),
+                            label: const Text('크롬으로 원문 보기'),
+                            onPressed: () => _openSourceInChrome(context),
                           ),
                         ),
                       ],
@@ -251,7 +251,7 @@ class DetailSheet extends StatelessWidget {
     );
   }
 
-  Future<void> _openSourceUrl(BuildContext context) async {
+  Future<void> _openSourceInChrome(BuildContext context) async {
     String raw = item.sourceUrl.trim();
     if (raw.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -264,43 +264,58 @@ class DetailSheet extends StatelessWidget {
       raw = 'https://$raw';
     }
 
-    final uri = Uri.tryParse(raw);
-    if (uri == null) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('올바르지 않은 URL 주소입니다: $raw')),
-      );
-      return;
-    }
-
     bool launched = false;
+
+    // 1단계: 구글 크롬(Chrome) 전용 안드로이드 Intent 직통 호출
     try {
-      // 1순위: 외부 기본 브라우저(크롬 등)로 열기
-      launched = await launchUrl(uri, mode: LaunchMode.externalApplication);
+      final cleanUrl = raw.replaceFirst(RegExp(r'^https?://'), '');
+      final chromeIntentUri = Uri.parse(
+        'intent://$cleanUrl#Intent;scheme=https;package=com.android.chrome;end',
+      );
+      launched = await launchUrl(chromeIntentUri, mode: LaunchMode.externalApplication);
     } catch (_) {}
 
+    // 2단계: 크롬 호출 실패 시 일반 외부 브라우저 호출
     if (!launched) {
       try {
-        // 2순위: 인앱 브라우저 뷰로 열기
-        launched = await launchUrl(uri, mode: LaunchMode.inAppBrowserView);
+        final standardUri = Uri.parse(raw);
+        launched = await launchUrl(standardUri, mode: LaunchMode.externalApplication);
       } catch (_) {}
     }
 
+    // 3단계: 인앱 크롬 커스텀 탭(In-App Browser View) 호출
     if (!launched) {
       try {
-        // 3순위: 시스템 기본 런처로 열기
-        launched = await launchUrl(uri, mode: LaunchMode.platformDefault);
+        final standardUri = Uri.parse(raw);
+        launched = await launchUrl(standardUri, mode: LaunchMode.inAppBrowserView);
       } catch (_) {}
     }
 
-    if (!launched && context.mounted) {
-      // 4순위: 브라우저 실행이 막힌 경우 링크를 클립보드에 복사해 줌
-      await Clipboard.setData(ClipboardData(text: raw));
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('브라우저 실행 실패: 링크가 클립보드에 복사되었습니다.\n$raw'),
-          duration: const Duration(seconds: 3),
-        ),
-      );
+    // 4단계: 시스템 기본 런처 호출
+    if (!launched) {
+      try {
+        final standardUri = Uri.parse(raw);
+        launched = await launchUrl(standardUri, mode: LaunchMode.platformDefault);
+      } catch (_) {}
+    }
+
+    if (context.mounted) {
+      if (launched) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('🌐 크롬 브라우저로 원문을 엽니다.'),
+            duration: Duration(seconds: 1),
+          ),
+        );
+      } else {
+        await Clipboard.setData(ClipboardData(text: raw));
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('브라우저 실행 실패: 링크가 클립보드에 복사되었습니다.\n$raw'),
+            duration: const Duration(seconds: 3),
+          ),
+        );
+      }
     }
   }
 
