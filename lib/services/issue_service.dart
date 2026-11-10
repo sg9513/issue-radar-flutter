@@ -39,9 +39,11 @@ class IssueService extends ChangeNotifier {
 
   List<IssueItem> get filteredIssues {
     return _allIssues.where((item) {
-      final matchesChannel =
-          _selectedChannel == IssueChannel.all || item.channel == _selectedChannel;
-      if (!matchesChannel) return false;
+      if (_selectedChannel == IssueChannel.newUpdates) {
+        if (!item.isNew || item.isRead) return false;
+      } else if (_selectedChannel != IssueChannel.all) {
+        if (item.channel != _selectedChannel) return false;
+      }
 
       if (_searchQuery.isEmpty) return true;
       final q = _searchQuery.toLowerCase();

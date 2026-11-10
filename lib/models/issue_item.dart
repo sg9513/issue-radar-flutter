@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 enum IssueChannel {
   all,
+  newUpdates, // 새로 올라온 이슈만 모아보기
   github,
   reddit,
   x,
@@ -12,6 +13,8 @@ enum IssueChannel {
     switch (this) {
       case IssueChannel.all:
         return '전체 피드';
+      case IssueChannel.newUpdates:
+        return '✨ 신규 업데이트';
       case IssueChannel.github:
         return 'GitHub';
       case IssueChannel.reddit:
@@ -29,8 +32,10 @@ enum IssueChannel {
     switch (this) {
       case IssueChannel.all:
         return const Color(0xFF6366F1); // Indigo
+      case IssueChannel.newUpdates:
+        return const Color(0xFF06B6D4); // Cyan neon
       case IssueChannel.github:
-        return const Color(0xFF24292E); // GitHub dark
+        return const Color(0xFFF0F6FC); // GitHub light
       case IssueChannel.reddit:
         return const Color(0xFFFF4500); // Reddit orange
       case IssueChannel.x:
@@ -46,6 +51,8 @@ enum IssueChannel {
     switch (this) {
       case IssueChannel.all:
         return Icons.auto_awesome;
+      case IssueChannel.newUpdates:
+        return Icons.bolt;
       case IssueChannel.github:
         return Icons.code;
       case IssueChannel.reddit:
@@ -73,8 +80,10 @@ class IssueItem {
   final String insight;
   final String sourceUrl;
   final DateTime timestamp;
+  bool isRead;
+  bool isNew;
 
-  const IssueItem({
+  IssueItem({
     required this.id,
     required this.channel,
     required this.channelLabel,
@@ -87,6 +96,8 @@ class IssueItem {
     required this.insight,
     required this.sourceUrl,
     required this.timestamp,
+    this.isRead = false,
+    this.isNew = true,
   });
 
   factory IssueItem.fromJson(Map<String, dynamic> json) {
@@ -123,6 +134,8 @@ class IssueItem {
       timestamp: json['timestamp'] != null
           ? DateTime.tryParse(json['timestamp']) ?? DateTime.now()
           : DateTime.now(),
+      isRead: json['isRead'] ?? false,
+      isNew: json['isNew'] ?? true,
     );
   }
 
@@ -140,6 +153,8 @@ class IssueItem {
       'insight': insight,
       'sourceUrl': sourceUrl,
       'timestamp': timestamp.toIso8601String(),
+      'isRead': isRead,
+      'isNew': isNew,
     };
   }
 }

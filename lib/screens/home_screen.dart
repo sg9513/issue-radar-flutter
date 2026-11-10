@@ -75,6 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildRadarFeedScreen() {
     final issues = widget.issueService.filteredIssues;
+    final notice = widget.issueService.recentNotificationMsg;
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -112,14 +113,27 @@ class _HomeScreenState extends State<HomeScreen> {
                   const SizedBox(width: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
-                      Text(
+                    children: [
+                      const Text(
                         '이슈 레이더',
                         style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
                       ),
-                      Text(
-                        '5대 플랫폼 실시간 인텔리전스',
-                        style: TextStyle(fontSize: 11, color: AppColors.textMuted),
+                      Row(
+                        children: [
+                          Container(
+                            width: 6,
+                            height: 6,
+                            decoration: const BoxDecoration(
+                              color: AppColors.success,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          const SizedBox(width: 4),
+                          const Text(
+                            '실시간 동기화 활성',
+                            style: TextStyle(fontSize: 11, color: AppColors.success, fontWeight: FontWeight.w600),
+                          ),
+                        ],
                       ),
                     ],
                   ),
@@ -135,6 +149,38 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Column(
         children: [
+          // New Update Alert Banner
+          if (notice != null)
+            Container(
+              margin: const EdgeInsets.fromLTRB(16, 4, 16, 4),
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+              decoration: BoxDecoration(
+                color: const Color(0xFF06B6D4).withOpacity(0.15),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: const Color(0xFF06B6D4).withOpacity(0.4)),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.bolt, color: Color(0xFF06B6D4), size: 18),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      notice,
+                      style: const TextStyle(
+                        color: Color(0xFF06B6D4),
+                        fontSize: 12,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                  GestureDetector(
+                    onTap: () => widget.issueService.clearRecentNotification(),
+                    child: const Icon(Icons.close, size: 16, color: Color(0xFF06B6D4)),
+                  ),
+                ],
+              ),
+            ),
+
           // Filter Chips Row
           _buildFilterChipsRow(),
 
@@ -181,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildFilterChipsRow() {
     return Container(
       height: 48,
-      margin: const EdgeInsets.symmetric(vertical: 8),
+      margin: const EdgeInsets.symmetric(vertical: 4),
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -207,7 +253,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               selected: isSelected,
-              selectedColor: AppColors.primary,
+              selectedColor: channel == IssueChannel.newUpdates
+                  ? const Color(0xFF06B6D4)
+                  : AppColors.primary,
               backgroundColor: AppColors.surface,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20),
