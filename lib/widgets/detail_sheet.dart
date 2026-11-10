@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/issue_item.dart';
 import '../theme/app_theme.dart';
@@ -235,12 +236,7 @@ class DetailSheet extends StatelessWidget {
                             ),
                             icon: const Icon(Icons.open_in_new, size: 18),
                             label: const Text('원문 소스 보기'),
-                            onPressed: () async {
-                              final uri = Uri.tryParse(item.sourceUrl);
-                              if (uri != null && await canLaunchUrl(uri)) {
-                                await launchUrl(uri, mode: LaunchMode.externalApplication);
-                              }
-                            },
+                            onPressed: () => _openSourceUrl(context),
                           ),
                         ),
                       ],
@@ -253,6 +249,59 @@ class DetailSheet extends StatelessWidget {
         );
       },
     );
+  }
+
+  Future<void> _openSourceUrl(BuildContext context) async {
+    String raw = item.sourceUrl.trim();
+    if (raw.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('원문 링크가 등록되지 않은 항목입니다.')),
+      );
+      return;
+    }
+
+    if (!raw.startsWith('http://') && !raw.startsWith('https://')) {
+      raw = 'https://$raw';
+    }
+
+    final uri = Uri.tryParse(raw);
+    if (uri == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('올바르지 않은 URL 주소입니다: $raw')),
+      );
+      return;
+    }
+
+    bool launched = false;
+    try {
+      // 1순위: 외부 기본 브라우저(크롬 등)로 열기
+      launched = await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } catch (_) {}
+
+    if (!launched) {
+      try {
+        // 2순위: 인앱 브라우저 뷰로 열기
+        launched = await launchUrl(uri, mode: LaunchMode.inAppBrowserView);
+      } catch (_) {}
+    }
+
+    if (!launched) {
+      try {
+        // 3순위: 시스템 기본 런처로 열기
+        launched = await launchUrl(uri, mode: LaunchMode.platformDefault);
+      } catch (_) {}
+    }
+
+    if (!launched && context.mounted) {
+      // 4순위: 브라우저 실행이 막힌 경우 링크를 클립보드에 복사해 줌
+      await Clipboard.setData(ClipboardData(text: raw));
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('브라우저 실행 실패: 링크가 클립보드에 복사되었습니다.\n$raw'),
+          duration: const Duration(seconds: 3),
+        ),
+      );
+    }
   }
 
   void _showSaveToFolderModal(BuildContext context) {
