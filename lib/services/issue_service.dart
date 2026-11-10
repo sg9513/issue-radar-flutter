@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import '../models/issue_item.dart';
 import '../models/bookmark_folder.dart';
 import '../models/trend_item.dart';
+import 'notification_service.dart';
 
 class IssueService extends ChangeNotifier {
   static const String liveDataUrl =
@@ -16,6 +17,8 @@ class IssueService extends ChangeNotifier {
   IssueChannel _selectedChannel = IssueChannel.all;
   final Set<String> _bookmarkedIds = {};
   DateTime? _lastUpdatedAt;
+  bool _notificationEnabled = true;
+  String? _recentNotificationMsg;
 
   // Custom Bookmark Folders
   final List<BookmarkFolder> _folders = [];
@@ -31,6 +34,8 @@ class IssueService extends ChangeNotifier {
   List<BookmarkFolder> get folders => _folders;
   List<TrendItem> get trends => _trends;
   DateTime? get lastUpdatedAt => _lastUpdatedAt;
+  bool get notificationEnabled => _notificationEnabled;
+  String? get recentNotificationMsg => _recentNotificationMsg;
 
   List<IssueItem> get filteredIssues {
     return _allIssues.where((item) {
@@ -51,6 +56,16 @@ class IssueService extends ChangeNotifier {
     _initDefaultFolders();
     _initDefaultTrends();
     loadInitialData();
+  }
+
+  void setNotificationEnabled(bool enabled) {
+    _notificationEnabled = enabled;
+    notifyListeners();
+  }
+
+  void clearRecentNotification() {
+    _recentNotificationMsg = null;
+    notifyListeners();
   }
 
   void _initDefaultFolders() {
@@ -133,14 +148,12 @@ class IssueService extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    // 1단계: 캐시/시드 데이터 즉시 표시 (지연 없는 쾌속 렌더링)
     if (_allIssues.isEmpty) {
       _allIssues = _getMockSeedIssues();
       notifyListeners();
     }
 
-    // 2단계: 실시간 원격 최신 데이터 백그라운드 동기화
-    await _fetchLiveDataFromNetwork();
+    await _fetchLiveDataFromNetwork(sendNotification: false);
     _isLoading = false;
     notifyListeners();
   }
@@ -149,23 +162,27 @@ class IssueService extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    await _fetchLiveDataFromNetwork();
+    await _fetchLiveDataFromNetwork(sendNotification: true);
     _isLoading = false;
     notifyListeners();
   }
 
-  Future<void> _fetchLiveDataFromNetwork() async {
+  Future<void> _fetchLiveDataFromNetwork({bool sendNotification = false}) async {
     try {
-      // 캐시 방지 타임스탬프 쿼리
       final uri = Uri.parse('$liveDataUrl?t=${DateTime.now().millisecondsSinceEpoch}');
       final response = await http.get(uri).timeout(const Duration(seconds: 6));
 
       if (response.statusCode == 200) {
         final decoded = json.decode(utf8.decode(response.bodyBytes));
         if (decoded is Map<String, dynamic>) {
+          bool hasNewData = false;
           if (decoded['items'] != null && decoded['items'] is List) {
             final List<dynamic> list = decoded['items'];
-            _allIssues = list.map((item) => IssueItem.fromJson(item)).toList();
+            final newItems = list.map((item) => IssueItem.fromJson(item)).toList();
+            if (newItems.isNotEmpty) {
+              _allIssues = newItems;
+              hasNewData = true;
+            }
           }
 
           if (decoded['trends'] != null && decoded['trends'] is List) {
@@ -176,17 +193,28 @@ class IssueService extends ChangeNotifier {
           if (decoded['updated_at'] != null) {
             _lastUpdatedAt = DateTime.tryParse(decoded['updated_at']);
           }
+
+          // 최신 정보가 성공적으로 수집/갱신되었을 때 시스템 푸시 알림 발송!
+          if (hasNewData && _notificationEnabled) {
+            final topHeadline = _allIssues.isNotEmpty ? _allIssues.first.title : '최신 핫이슈';
+            _recentNotificationMsg = '최신 이슈 ${_allIssues.length}건이 갱신되었습니다.';
+
+            await NotificationService.showUpdateNotification(
+              count: _allIssues.length,
+              topHeadline: topHeadline,
+            );
+          }
         }
       }
     } catch (e) {
-      debugPrint('[IssueService] 실시간 데이터 동기화 예외 (오프라인 모드 유지): $e');
+      debugPrint('[IssueService] 실시간 데이터 동기화 예외: $e');
       if (_allIssues.isEmpty) {
         _allIssues = _getMockSeedIssues();
       }
     }
   }
 
-  // Folder Management Operations
+  // Folder Operations
   void createFolder(String name, {Color? color, IconData? icon}) {
     if (name.trim().isEmpty) return;
     _folders.add(BookmarkFolder(
@@ -305,34 +333,6 @@ class IssueService extends ChangeNotifier {
         insight: '복잡해지는 마이크로서비스 및 분산 아키텍처를 자동으로 이해하고 문서화하는 툴의 실무 가치가 입증되고 있습니다.',
         sourceUrl: 'https://github.com/storytold/craft-anything',
         timestamp: now.subtract(const Duration(hours: 4)),
-      ),
-      IssueItem(
-        id: 'rd-1',
-        channel: IssueChannel.reddit,
-        channelLabel: 'Reddit r/technology',
-        title: '\"AI 코딩 에이전트 도입 후 시니어 엔지니어의 일상 변화와 딜레마\"',
-        summary: '코드 생성 속도는 빨라졌으나 PR 리뷰 및 시스템 안정성 검증 병목이 심화되었다는 레딧 인기 포스트.',
-        metric: '⬆️ 4.8k upvotes · 💬 1.2k comments',
-        tags: ['#AICoding', '#DevLife', '#CodeReview'],
-        background: '개발 생산성 도구 도입 6개월 차 현업 엔지니어의 솔직한 분석 글이 대규모 공감을 얻었습니다.',
-        reactions: '코드 생성량 증가에 비례해 유지보수 부채가 늘어난다는 우려와 리뷰 자동화 툴의 필요성에 공감대가 형성되었습니다.',
-        insight: '단순 코딩 자동화를 넘어 팀 단위의 코드 리뷰 거버넌스가 핵심 과제로 부상했습니다.',
-        sourceUrl: 'https://reddit.com/r/technology',
-        timestamp: now.subtract(const Duration(hours: 3)),
-      ),
-      IssueItem(
-        id: 'x-1',
-        channel: IssueChannel.x,
-        channelLabel: 'X (트위터)',
-        title: '실리콘밸리 엔지니어들의 \"멀티 LLM 하이브리드 파이프라인\" 실전 팁 화제',
-        summary: '복잡한 아키텍처 설계와 빠른 파일 수정을 서로 다른 특화 모델에 분담시키는 체인이 대세로 정착 중입니다.',
-        metric: '🔁 18.5k reposts · ❤️ 42k likes',
-        tags: ['#AIWorkflow', '#LLMPipeline', '#Prompting'],
-        background: '단일 모델의 한계를 극복하기 위해 추론 모델과 코딩 특화 모델을 결합하는 방법론이 X에서 바이럴을 탔습니다.',
-        reactions: '현업 개발자들이 각자의 커스텀 프롬프트와 에이전트 설정 노하우를 공유하며 스레드가 확산되었습니다.',
-        insight: '다양한 모델의 장단점을 파악하고 조합하는 오케스트레이션 능력이 개발자의 필수 역량이 되고 있습니다.',
-        sourceUrl: 'https://x.com/tech_trends',
-        timestamp: now.subtract(const Duration(hours: 5)),
       ),
     ];
   }

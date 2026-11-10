@@ -9,9 +9,9 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
+  bool _liveFetchPushEnabled = true;
   bool _morningPushEnabled = true;
   bool _breakingPushEnabled = true;
-  bool _autoRefreshEnabled = true;
 
   @override
   Widget build(BuildContext context) {
@@ -19,35 +19,28 @@ class _SettingsScreenState extends State<SettingsScreen> {
       backgroundColor: AppColors.background,
       appBar: AppBar(
         title: const Text('앱 설정 및 알림'),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, size: 18),
-          onPressed: () => Navigator.pop(context),
-        ),
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          _buildSectionHeader('푸시 알림 설정'),
+          _buildSectionHeader('실시간 알림 설정'),
           _buildSwitchTile(
-            title: '아침 7시 데일리 모닝 브리핑',
-            subtitle: '매일 아침 밤사이 누적된 5대 플랫폼 핵심 이슈 3선 발송',
+            title: '📡 최신 정보 수집 시 즉시 알림',
+            subtitle: '새로운 이슈 데이터가 수집되어 앱에 갱신될 때 스마트폰 상단바로 알림',
+            value: _liveFetchPushEnabled,
+            onChanged: (val) => setState(() => _liveFetchPushEnabled = val),
+          ),
+          _buildSwitchTile(
+            title: '🌅 아침 7시 데일리 모닝 브리핑',
+            subtitle: '매일 아침 밤사이 누적된 5대 플랫폼 핵심 이슈 3선 요약',
             value: _morningPushEnabled,
             onChanged: (val) => setState(() => _morningPushEnabled = val),
           ),
           _buildSwitchTile(
-            title: '긴급 속보 / 하이 임팩트 알림',
+            title: '🔥 긴급 속보 / 하이 임팩트 알림',
             subtitle: '깃허브 급상승 1위나 검색량 500% 급증 시 즉시 알림',
             value: _breakingPushEnabled,
             onChanged: (val) => setState(() => _breakingPushEnabled = val),
-          ),
-          const SizedBox(height: 24),
-
-          _buildSectionHeader('데이터 수집 및 동기화'),
-          _buildSwitchTile(
-            title: '백그라운드 자동 동기화',
-            subtitle: '앱 실행 시 항상 최신 플랫폼 트렌드로 자동 새로고침',
-            value: _autoRefreshEnabled,
-            onChanged: (val) => setState(() => _autoRefreshEnabled = val),
           ),
           const SizedBox(height: 24),
 
@@ -72,13 +65,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  '버전 1.0.0 (Flutter Release)',
+                  '버전 1.2.0 (실시간 알림 & 보관함 & 트렌드 탑재)',
                   style: TextStyle(fontSize: 12, color: AppColors.textMuted),
                 ),
                 SizedBox(height: 8),
                 Text(
-                  '깃허브, 레딧, X, 페이스북, 구글 실시간 지능형 분석 시스템',
-                  style: TextStyle(fontSize: 13, color: AppColors.textSecondary),
+                  '개발자: 승규 x 두기\n깃허브, 레딧, X, 페이스북, 구글 실시간 지능형 분석 시스템',
+                  style: TextStyle(fontSize: 13, color: AppColors.textSecondary, height: 1.4),
                 ),
               ],
             ),
