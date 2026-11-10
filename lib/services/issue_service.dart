@@ -1,15 +1,21 @@
 import 'dart:async';
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 import '../models/issue_item.dart';
 import '../models/bookmark_folder.dart';
 import '../models/trend_item.dart';
 
 class IssueService extends ChangeNotifier {
+  static const String liveDataUrl =
+      'https://raw.githubusercontent.com/sg9513/issue-radar-flutter/main/data/latest_issues.json';
+
   List<IssueItem> _allIssues = [];
   bool _isLoading = false;
   String _searchQuery = '';
   IssueChannel _selectedChannel = IssueChannel.all;
   final Set<String> _bookmarkedIds = {};
+  DateTime? _lastUpdatedAt;
 
   // Custom Bookmark Folders
   final List<BookmarkFolder> _folders = [];
@@ -24,6 +30,7 @@ class IssueService extends ChangeNotifier {
   Set<String> get bookmarkedIds => _bookmarkedIds;
   List<BookmarkFolder> get folders => _folders;
   List<TrendItem> get trends => _trends;
+  DateTime? get lastUpdatedAt => _lastUpdatedAt;
 
   List<IssueItem> get filteredIssues {
     return _allIssues.where((item) {
@@ -42,7 +49,7 @@ class IssueService extends ChangeNotifier {
 
   IssueService() {
     _initDefaultFolders();
-    _initTrends();
+    _initDefaultTrends();
     loadInitialData();
   }
 
@@ -72,7 +79,7 @@ class IssueService extends ChangeNotifier {
     ]);
   }
 
-  void _initTrends() {
+  void _initDefaultTrends() {
     _trends = [
       const TrendItem(
         rank: 1,
@@ -119,25 +126,64 @@ class IssueService extends ChangeNotifier {
         platform: 'GitHub Trending 1위',
         description: '무선 Wi-Fi로 TV 광고 및 기본 탑재 앱을 일괄 삭제하는 툴 화제',
       ),
-      const TrendItem(
-        rank: 6,
-        keyword: 'Rust 소프트웨어 아키텍처 리버스 툴',
-        category: '시스템 프로그래밍',
-        searchVolume: '82K+ 검색',
-        surgeRate: '+230%',
-        platform: 'GitHub Trending',
-        description: '소프트웨어 동작 구조를 자동 다이어그램으로 시각화해 주는 신규 도구',
-      ),
-      const TrendItem(
-        rank: 7,
-        keyword: '사내 AI 프라이빗 보안 가이드',
-        category: '엔터프라이즈 보안',
-        searchVolume: '67K+ 검색',
-        surgeRate: '+180%',
-        platform: 'Facebook 개발자 그룹',
-        description: '국내 500개 테크 스타트업 실무 AI 만족도 및 소스코드 유출 방지책',
-      ),
     ];
+  }
+
+  Future<void> loadInitialData() async {
+    _isLoading = true;
+    notifyListeners();
+
+    // 1단계: 캐시/시드 데이터 즉시 표시 (지연 없는 쾌속 렌더링)
+    if (_allIssues.isEmpty) {
+      _allIssues = _getMockSeedIssues();
+      notifyListeners();
+    }
+
+    // 2단계: 실시간 원격 최신 데이터 백그라운드 동기화
+    await _fetchLiveDataFromNetwork();
+    _isLoading = false;
+    notifyListeners();
+  }
+
+  Future<void> refreshIssues() async {
+    _isLoading = true;
+    notifyListeners();
+
+    await _fetchLiveDataFromNetwork();
+    _isLoading = false;
+    notifyListeners();
+  }
+
+  Future<void> _fetchLiveDataFromNetwork() async {
+    try {
+      // 캐시 방지 타임스탬프 쿼리
+      final uri = Uri.parse('$liveDataUrl?t=${DateTime.now().millisecondsSinceEpoch}');
+      final response = await http.get(uri).timeout(const Duration(seconds: 6));
+
+      if (response.statusCode == 200) {
+        final decoded = json.decode(utf8.decode(response.bodyBytes));
+        if (decoded is Map<String, dynamic>) {
+          if (decoded['items'] != null && decoded['items'] is List) {
+            final List<dynamic> list = decoded['items'];
+            _allIssues = list.map((item) => IssueItem.fromJson(item)).toList();
+          }
+
+          if (decoded['trends'] != null && decoded['trends'] is List) {
+            final List<dynamic> tList = decoded['trends'];
+            _trends = tList.map((t) => TrendItem.fromJson(t)).toList();
+          }
+
+          if (decoded['updated_at'] != null) {
+            _lastUpdatedAt = DateTime.tryParse(decoded['updated_at']);
+          }
+        }
+      }
+    } catch (e) {
+      debugPrint('[IssueService] 실시간 데이터 동기화 예외 (오프라인 모드 유지): $e');
+      if (_allIssues.isEmpty) {
+        _allIssues = _getMockSeedIssues();
+      }
+    }
   }
 
   // Folder Management Operations
@@ -168,7 +214,6 @@ class IssueService extends ChangeNotifier {
     final folder = _folders.firstWhere((f) => f.id == folderId, orElse: () => _folders.first);
     if (folder.issueIds.contains(issueId)) {
       folder.removeIssue(issueId);
-      // If removed from all folders, remove from bookmarkedIds
       if (!_folders.any((f) => f.issueIds.contains(issueId))) {
         _bookmarkedIds.remove(issueId);
       }
@@ -187,26 +232,6 @@ class IssueService extends ChangeNotifier {
   List<IssueItem> getIssuesForFolder(String folderId) {
     final folder = _folders.firstWhere((f) => f.id == folderId, orElse: () => _folders.first);
     return _allIssues.where((item) => folder.issueIds.contains(item.id)).toList();
-  }
-
-  Future<void> loadInitialData() async {
-    _isLoading = true;
-    notifyListeners();
-
-    await Future.delayed(const Duration(milliseconds: 300));
-    _allIssues = _getMockSeedIssues();
-    _isLoading = false;
-    notifyListeners();
-  }
-
-  Future<void> refreshIssues() async {
-    _isLoading = true;
-    notifyListeners();
-
-    await Future.delayed(const Duration(milliseconds: 600));
-    _allIssues = _getMockSeedIssues();
-    _isLoading = false;
-    notifyListeners();
   }
 
   void setChannel(IssueChannel channel) {
@@ -308,34 +333,6 @@ class IssueService extends ChangeNotifier {
         insight: '다양한 모델의 장단점을 파악하고 조합하는 오케스트레이션 능력이 개발자의 필수 역량이 되고 있습니다.',
         sourceUrl: 'https://x.com/tech_trends',
         timestamp: now.subtract(const Duration(hours: 5)),
-      ),
-      IssueItem(
-        id: 'fb-1',
-        channel: IssueChannel.facebook,
-        channelLabel: 'Facebook IT 개발자 그룹',
-        title: '국내 테크 스타트업 500팀 대상 \"2026 하반기 실무 AI 도구 만족도 서베이\"',
-        summary: '국내 500개 테크 스타트업 서베이 결과, 사내 저장소 컨텍스트 연동 에이전트가 최우수 평가를 받았습니다.',
-        metric: '👍 1.8k likes · 💬 420 comments',
-        tags: ['#Survey', '#DevTools', '#Startup'],
-        background: '국내 개발자 그룹에서 실시한 업무 생산성 설문조사 인포그래픽이 높은 공유 수를 기록했습니다.',
-        reactions: '보안 규정과 사내 소스코드 유출 방지 가이드라인을 충족하는 온프레미스/엔터프라이즈 솔루션에 관심이 높습니다.',
-        insight: '도구 도입을 넘어 사내 보안 거버넌스 구축이 엔지니어링 리더들의 최대 관심사입니다.',
-        sourceUrl: 'https://facebook.com/groups/devkorea',
-        timestamp: now.subtract(const Duration(hours: 6)),
-      ),
-      IssueItem(
-        id: 'gg-1',
-        channel: IssueChannel.google,
-        channelLabel: 'Google Trends 급상승',
-        title: '구글 급상승 검색어: \"자율형 AI 에이전트 프레임워크\"',
-        summary: '단순 챗봇을 넘어 스스로 환경을 탐색하고 작업을 완수하는 에이전틱 AI 관련 검색량 폭증.',
-        metric: '🔥 500% 급상승 · 트렌드 1위',
-        tags: ['#GoogleTrends', '#AgenticAI', '#Trending'],
-        background: '주요 글로벌 빅테크 기업들의 자율 에이전트 출시 발표 이후 일반 대중 및 개발자들의 검색 유입이 급증했습니다.',
-        reactions: '개인용 자동화 도구부터 엔터프라이즈 업무 자동화까지 적용 가능성에 대한 관심이 쏟아지고 있습니다.',
-        insight: 'AI 패러다임이 대화형 어시스턴트에서 자율 실행 에이전트로 이동하고 있음을 보여주는 대중적 지표입니다.',
-        sourceUrl: 'https://trends.google.com/trending',
-        timestamp: now.subtract(const Duration(hours: 2)),
       ),
     ];
   }

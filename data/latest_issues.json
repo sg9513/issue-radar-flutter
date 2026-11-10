@@ -1,0 +1,224 @@
+{
+  "updated_at": "2026-11-10T22:22:52.349397",
+  "count": 9,
+  "items": [
+    {
+      "id": "gh-live-1",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "Gathin23/cleanyourtv: 신규 급상승 프로젝트",
+      "summary": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "metric": "⭐ 55.8k stars",
+      "tags": [
+        "#Python",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/Gathin23/cleanyourtv"
+    },
+    {
+      "id": "gh-live-2",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "deepseek-ai/DeepInfer: 신규 급상승 프로젝트",
+      "summary": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "metric": "⭐ 25.8k stars",
+      "tags": [
+        "#Python",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "id": "gh-live-3",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "storytold/craft-anything: 신규 급상승 프로젝트",
+      "summary": "Craft Anything: understand how any software works, and craft your own.",
+      "metric": "⭐ 25.5k stars",
+      "tags": [
+        "#Rust",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/storytold/craft-anything"
+    },
+    {
+      "id": "rd-live-1",
+      "channel": "reddit",
+      "channelLabel": "Reddit r/technology",
+      "badgeClass": "badge-reddit",
+      "title": "\"AI 코딩 에이전트 도입 후 시니어 엔지니어의 일상 변화와 딜레마\"",
+      "summary": "코드 작성 속도는 빨라졌으나 PR 리뷰 및 시스템 검증 병목이 심화되었다는 레딧 인기 포스트.",
+      "metric": "⬆️ 4.8k upvotes · 💬 1.2k comments",
+      "tags": [
+        "#Reddit",
+        "#DevLife",
+        "#AICoding"
+      ],
+      "background": "개발 생산성 도구 도입 6개월 차 현업 엔지니어의 솔직한 분석 글이 대규모 공감을 얻었습니다.",
+      "reactions": "코드 생성량 증가에 비례해 유지보수 부채가 늘어난다는 우려와 리뷰 자동화 툴의 필요성에 공감대가 형성되었습니다.",
+      "insight": "단순 코딩 자동화를 넘어 팀 단위의 코드 리뷰 거버넌스가 핵심 과제로 부상했습니다.",
+      "source": "https://reddit.com/r/technology"
+    },
+    {
+      "id": "x-live-1",
+      "channel": "x",
+      "channelLabel": "X (트위터)",
+      "badgeClass": "badge-x",
+      "title": "실리콘밸리 엔지니어들의 '멀티 LLM 하이브리드 파이프라인' 실전 팁 화제",
+      "summary": "복잡한 아키텍처 설계와 빠른 파일 수정을 서로 다른 특화 모델에 분담시키는 체인이 대세로 정착 중입니다.",
+      "metric": "🔁 18.5k reposts · ❤️ 42k likes",
+      "tags": [
+        "#X_Trending",
+        "#AIWorkflow",
+        "#DevTips"
+      ],
+      "background": "단일 모델의 한계를 극복하기 위해 추론 모델과 코딩 특화 모델을 결합하는 방법론이 X에서 바이럴을 탔습니다.",
+      "reactions": "현업 개발자들이 각자의 커스텀 프롬프트와 에이전트 설정 노하우를 공유하며 스레드가 확산되었습니다.",
+      "insight": "다양한 모델의 장단점을 파악하고 조합하는 오케스트레이션 능력이 개발자의 필수 역량이 되고 있습니다.",
+      "source": "https://x.com/tech_trends"
+    },
+    {
+      "id": "fb-live-1",
+      "channel": "facebook",
+      "channelLabel": "Facebook IT 개발자 그룹",
+      "badgeClass": "badge-facebook",
+      "title": "국내 개발팀 대상 \"2026 하반기 실무 AI 도구 체감 만족도 1위\" 분석",
+      "summary": "국내 500개 테크 스타트업 서베이 결과, 사내 저장소 컨텍스트 연동 에이전트가 최우수 평가를 받았습니다.",
+      "metric": "👍 1.8k likes · 💬 420 comments",
+      "tags": [
+        "#FacebookGroup",
+        "#DevTools",
+        "#Survey"
+      ],
+      "background": "국내 개발자 그룹에서 실시한 업무 생산성 설문조사 인포그래픽이 높은 공유 수를 기록했습니다.",
+      "reactions": "보안 규정과 사내 소스코드 유출 방지 가이드라인을 충족하는 온프레미스/엔터프라이즈 솔루션에 관심이 높습니다.",
+      "insight": "도구 도입을 넘어 사내 보안 거버넌스 구축이 엔지니어링 리더들의 최대 관심사입니다.",
+      "source": "https://facebook.com/groups/devkorea"
+    },
+    {
+      "id": "google-1",
+      "channel": "google",
+      "channelLabel": "Google Trends 급상승",
+      "badgeClass": "badge-google",
+      "title": "구글 급상승 검색어: \"정승제\"",
+      "summary": "정승제 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
+      "tags": [
+        "#GoogleTrends",
+        "#실시간검색",
+        "#실시간이슈"
+      ],
+      "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
+      "reactions": "대중 및 테크 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
+      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 지표입니다.",
+      "source": "https://trends.google.com/trending/rss?geo=KR"
+    },
+    {
+      "id": "google-2",
+      "channel": "google",
+      "channelLabel": "Google Trends 급상승",
+      "badgeClass": "badge-google",
+      "title": "구글 급상승 검색어: \"한수아\"",
+      "summary": "한수아 관련 급상승 검색어",
+      "metric": "🔥 100+ 검색 돌파",
+      "tags": [
+        "#GoogleTrends",
+        "#실시간검색",
+        "#실시간이슈"
+      ],
+      "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
+      "reactions": "대중 및 테크 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
+      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 지표입니다.",
+      "source": "https://trends.google.com/trending/rss?geo=KR"
+    },
+    {
+      "id": "google-3",
+      "channel": "google",
+      "channelLabel": "Google Trends 급상승",
+      "badgeClass": "badge-google",
+      "title": "구글 급상승 검색어: \"뉴데일리\"",
+      "summary": "뉴데일리 관련 급상승 검색어",
+      "metric": "🔥 1000+ 검색 돌파",
+      "tags": [
+        "#GoogleTrends",
+        "#실시간검색",
+        "#실시간이슈"
+      ],
+      "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
+      "reactions": "대중 및 테크 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
+      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 지표입니다.",
+      "source": "https://trends.google.com/trending/rss?geo=KR"
+    }
+  ],
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "정승제",
+      "category": "실시간 검색어",
+      "searchVolume": "200+ 검색 돌파",
+      "surgeRate": "+850%",
+      "platform": "Google Trends 실시간 랭킹",
+      "description": "정승제 관련 급상승 검색어"
+    },
+    {
+      "rank": 2,
+      "keyword": "한수아",
+      "category": "실시간 검색어",
+      "searchVolume": "100+ 검색 돌파",
+      "surgeRate": "+800%",
+      "platform": "Google Trends 실시간 랭킹",
+      "description": "한수아 관련 급상승 검색어"
+    },
+    {
+      "rank": 3,
+      "keyword": "뉴데일리",
+      "category": "실시간 검색어",
+      "searchVolume": "1000+ 검색 돌파",
+      "surgeRate": "+750%",
+      "platform": "Google Trends 실시간 랭킹",
+      "description": "뉴데일리 관련 급상승 검색어"
+    },
+    {
+      "rank": 4,
+      "keyword": "jtbc",
+      "category": "실시간 검색어",
+      "searchVolume": "1000+ 검색 돌파",
+      "surgeRate": "+700%",
+      "platform": "Google Trends 실시간 랭킹",
+      "description": "jtbc 관련 급상승 검색어"
+    },
+    {
+      "rank": 5,
+      "keyword": "금융보안원",
+      "category": "실시간 검색어",
+      "searchVolume": "200+ 검색 돌파",
+      "surgeRate": "+650%",
+      "platform": "Google Trends 실시간 랭킹",
+      "description": "금융보안원 관련 급상승 검색어"
+    },
+    {
+      "rank": 6,
+      "keyword": "악뮤 콘서트",
+      "category": "실시간 검색어",
+      "searchVolume": "200+ 검색 돌파",
+      "surgeRate": "+600%",
+      "platform": "Google Trends 실시간 랭킹",
+      "description": "악뮤 콘서트 관련 급상승 검색어"
+    }
+  ]
+}
