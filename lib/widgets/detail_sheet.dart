@@ -214,15 +214,10 @@ class DetailSheet extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(12),
                               ),
                             ),
-                            icon: const Icon(Icons.bookmark_border, size: 18),
+                            icon: const Icon(Icons.bookmark_add_outlined, size: 18),
                             label: const Text('보관함 저장'),
                             onPressed: () {
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
-                                  content: Text('이슈를 보관함에 저장했습니다.'),
-                                  duration: Duration(seconds: 1),
-                                ),
-                              );
+                              _showSaveToFolderModal(context);
                             },
                           ),
                         ),
@@ -254,6 +249,60 @@ class DetailSheet extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+        );
+      },
+    );
+  }
+
+  void _showSaveToFolderModal(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      builder: (context) {
+        return Container(
+          padding: const EdgeInsets.all(20),
+          decoration: const BoxDecoration(
+            color: AppColors.surface,
+            borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: const [
+                  Icon(Icons.folder_outlined, color: AppColors.primary, size: 20),
+                  SizedBox(width: 8),
+                  Text(
+                    '저장할 보관함을 선택하세요',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16),
+              _buildFolderChoiceTile(context, '📌 중요 스크랩'),
+              _buildFolderChoiceTile(context, '💡 AI 기술 동향'),
+              _buildFolderChoiceTile(context, '🛠️ 개발 꿀팁 & 도구'),
+              const SizedBox(height: 12),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildFolderChoiceTile(BuildContext context, String folderName) {
+    return ListTile(
+      contentPadding: EdgeInsets.zero,
+      leading: const Icon(Icons.check_box_outline_blank, color: AppColors.textSecondary),
+      title: Text(folderName, style: const TextStyle(fontSize: 14, color: AppColors.textPrimary)),
+      onTap: () {
+        Navigator.pop(context);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('\'$folderName\'에 저장했습니다.'),
+            duration: const Duration(seconds: 1),
           ),
         );
       },

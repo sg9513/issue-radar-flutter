@@ -3,6 +3,8 @@ import '../models/issue_item.dart';
 import '../services/issue_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/issue_card.dart';
+import 'bookmarks_screen.dart';
+import 'trends_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -38,6 +40,40 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: AppColors.background,
+      body: IndexedStack(
+        index: _currentBottomNavIndex,
+        children: [
+          _buildRadarFeedScreen(),
+          BookmarksScreen(issueService: widget.issueService),
+          TrendsScreen(issueService: widget.issueService),
+          const SettingsScreen(),
+        ],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _currentBottomNavIndex,
+        backgroundColor: AppColors.surface,
+        selectedItemColor: AppColors.primary,
+        unselectedItemColor: AppColors.textMuted,
+        type: BottomNavigationBarType.fixed,
+        onTap: (index) {
+          setState(() {
+            _currentBottomNavIndex = index;
+            if (index == 0) _isSearching = false;
+          });
+        },
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.radar), label: '레이더'),
+          BottomNavigationBarItem(icon: Icon(Icons.bookmark_outline), label: '보관함'),
+          BottomNavigationBarItem(icon: Icon(Icons.local_fire_department_outlined), label: '트렌드'),
+          BottomNavigationBarItem(icon: Icon(Icons.settings_outlined), label: '설정'),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildRadarFeedScreen() {
     final issues = widget.issueService.filteredIssues;
 
     return Scaffold(
@@ -95,15 +131,6 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: const Icon(Icons.search, color: AppColors.textSecondary),
               onPressed: () => setState(() => _isSearching = true),
             ),
-          IconButton(
-            icon: const Icon(Icons.settings_outlined, color: AppColors.textSecondary),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const SettingsScreen()),
-              );
-            },
-          ),
         ],
       ),
       body: Column(
@@ -146,28 +173,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
           ),
-        ],
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentBottomNavIndex,
-        backgroundColor: AppColors.surface,
-        selectedItemColor: AppColors.primary,
-        unselectedItemColor: AppColors.textMuted,
-        type: BottomNavigationBarType.fixed,
-        onTap: (index) {
-          setState(() => _currentBottomNavIndex = index);
-          if (index == 3) {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const SettingsScreen()),
-            );
-          }
-        },
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.radar), label: '레이더'),
-          BottomNavigationBarItem(icon: Icon(Icons.bookmark_outline), label: '보관함'),
-          BottomNavigationBarItem(icon: Icon(Icons.analytics_outlined), label: '트렌드'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings_outlined), label: '설정'),
         ],
       ),
     );

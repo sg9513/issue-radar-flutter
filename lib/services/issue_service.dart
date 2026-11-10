@@ -1,6 +1,8 @@
 import 'dart:async';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import '../models/issue_item.dart';
+import '../models/bookmark_folder.dart';
+import '../models/trend_item.dart';
 
 class IssueService extends ChangeNotifier {
   List<IssueItem> _allIssues = [];
@@ -9,11 +11,19 @@ class IssueService extends ChangeNotifier {
   IssueChannel _selectedChannel = IssueChannel.all;
   final Set<String> _bookmarkedIds = {};
 
+  // Custom Bookmark Folders
+  final List<BookmarkFolder> _folders = [];
+
+  // Real-time Trends
+  List<TrendItem> _trends = [];
+
   List<IssueItem> get allIssues => _allIssues;
   bool get isLoading => _isLoading;
   String get searchQuery => _searchQuery;
   IssueChannel get selectedChannel => _selectedChannel;
   Set<String> get bookmarkedIds => _bookmarkedIds;
+  List<BookmarkFolder> get folders => _folders;
+  List<TrendItem> get trends => _trends;
 
   List<IssueItem> get filteredIssues {
     return _allIssues.where((item) {
@@ -31,14 +41,158 @@ class IssueService extends ChangeNotifier {
   }
 
   IssueService() {
+    _initDefaultFolders();
+    _initTrends();
     loadInitialData();
+  }
+
+  void _initDefaultFolders() {
+    _folders.addAll([
+      BookmarkFolder(
+        id: 'default',
+        name: '📌 중요 스크랩',
+        color: const Color(0xFF6366F1),
+        icon: Icons.push_pin_outlined,
+        issueIds: ['gh-1', 'x-1'],
+      ),
+      BookmarkFolder(
+        id: 'ai-trends',
+        name: '💡 AI 기술 동향',
+        color: const Color(0xFF10B981),
+        icon: Icons.smart_toy_outlined,
+        issueIds: ['gh-1', 'gg-1'],
+      ),
+      BookmarkFolder(
+        id: 'dev-tips',
+        name: '🛠️ 개발 꿀팁 & 도구',
+        color: const Color(0xFFF59E0B),
+        icon: Icons.build_outlined,
+        issueIds: ['gh-2', 'rd-1'],
+      ),
+    ]);
+  }
+
+  void _initTrends() {
+    _trends = [
+      const TrendItem(
+        rank: 1,
+        keyword: 'DeepSeek R1 / DeepInfer',
+        category: 'AI / 추론 인프라',
+        searchVolume: '320K+ 검색',
+        surgeRate: '+850%',
+        platform: 'Google Trends 1위 · GitHub',
+        description: '저비용 고성능 분산 추론 가속 프레임워크 공개 및 스타 폭증',
+      ),
+      const TrendItem(
+        rank: 2,
+        keyword: '자율형 AI 에이전트',
+        category: '소프트웨어 엔지니어링',
+        searchVolume: '210K+ 검색',
+        surgeRate: '+520%',
+        platform: 'Google Trends · X 실시간',
+        description: '단순 질의응답을 넘어선 다중 파일 수정 및 자율 테스크 해결 화두',
+      ),
+      const TrendItem(
+        rank: 3,
+        keyword: 'Claude 3.5 Sonnet 하이브리드 파이프라인',
+        category: 'LLM 오케스트레이션',
+        searchVolume: '185K+ 검색',
+        surgeRate: '+410%',
+        platform: 'X (트위터) 엔지니어 스레드',
+        description: '추론 모델과 코딩 특화 모델을 결합하는 멀티 LLM 실전 체인 바이럴',
+      ),
+      const TrendItem(
+        rank: 4,
+        keyword: 'AI 코딩 도입 후 PR 리뷰 병목',
+        category: '개발자 문화 & 거버넌스',
+        searchVolume: '140K+ 검색',
+        surgeRate: '+340%',
+        platform: 'Reddit r/technology 인기글',
+        description: '코드 생성량 폭증에 따른 코드 리뷰 피로감 및 품질 검증 대책 논의',
+      ),
+      const TrendItem(
+        rank: 5,
+        keyword: '스마트TV 클린OS / 디블로트',
+        category: '오픈소스 유틸리티',
+        searchVolume: '95K+ 검색',
+        surgeRate: '+290%',
+        platform: 'GitHub Trending 1위',
+        description: '무선 Wi-Fi로 TV 광고 및 기본 탑재 앱을 일괄 삭제하는 툴 화제',
+      ),
+      const TrendItem(
+        rank: 6,
+        keyword: 'Rust 소프트웨어 아키텍처 리버스 툴',
+        category: '시스템 프로그래밍',
+        searchVolume: '82K+ 검색',
+        surgeRate: '+230%',
+        platform: 'GitHub Trending',
+        description: '소프트웨어 동작 구조를 자동 다이어그램으로 시각화해 주는 신규 도구',
+      ),
+      const TrendItem(
+        rank: 7,
+        keyword: '사내 AI 프라이빗 보안 가이드',
+        category: '엔터프라이즈 보안',
+        searchVolume: '67K+ 검색',
+        surgeRate: '+180%',
+        platform: 'Facebook 개발자 그룹',
+        description: '국내 500개 테크 스타트업 실무 AI 만족도 및 소스코드 유출 방지책',
+      ),
+    ];
+  }
+
+  // Folder Management Operations
+  void createFolder(String name, {Color? color, IconData? icon}) {
+    if (name.trim().isEmpty) return;
+    _folders.add(BookmarkFolder(
+      id: DateTime.now().millisecondsSinceEpoch.toString(),
+      name: name.trim(),
+      color: color ?? const Color(0xFF6366F1),
+      icon: icon ?? Icons.folder_outlined,
+    ));
+    notifyListeners();
+  }
+
+  void renameFolder(String folderId, String newName) {
+    if (newName.trim().isEmpty) return;
+    final folder = _folders.firstWhere((f) => f.id == folderId, orElse: () => _folders.first);
+    folder.name = newName.trim();
+    notifyListeners();
+  }
+
+  void deleteFolder(String folderId) {
+    _folders.removeWhere((f) => f.id == folderId);
+    notifyListeners();
+  }
+
+  void toggleSaveToFolder(String folderId, String issueId) {
+    final folder = _folders.firstWhere((f) => f.id == folderId, orElse: () => _folders.first);
+    if (folder.issueIds.contains(issueId)) {
+      folder.removeIssue(issueId);
+      // If removed from all folders, remove from bookmarkedIds
+      if (!_folders.any((f) => f.issueIds.contains(issueId))) {
+        _bookmarkedIds.remove(issueId);
+      }
+    } else {
+      folder.addIssue(issueId);
+      _bookmarkedIds.add(issueId);
+    }
+    notifyListeners();
+  }
+
+  bool isIssueInFolder(String folderId, String issueId) {
+    final folder = _folders.firstWhere((f) => f.id == folderId, orElse: () => _folders.first);
+    return folder.issueIds.contains(issueId);
+  }
+
+  List<IssueItem> getIssuesForFolder(String folderId) {
+    final folder = _folders.firstWhere((f) => f.id == folderId, orElse: () => _folders.first);
+    return _allIssues.where((item) => folder.issueIds.contains(item.id)).toList();
   }
 
   Future<void> loadInitialData() async {
     _isLoading = true;
     notifyListeners();
 
-    // 5대 플랫폼 초기 데이터 로드 (고화질 실전 데이터)
     await Future.delayed(const Duration(milliseconds: 300));
     _allIssues = _getMockSeedIssues();
     _isLoading = false;
@@ -49,7 +203,6 @@ class IssueService extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    // 백그라운드 수집 시뮬레이션
     await Future.delayed(const Duration(milliseconds: 600));
     _allIssues = _getMockSeedIssues();
     _isLoading = false;
@@ -69,8 +222,14 @@ class IssueService extends ChangeNotifier {
   void toggleBookmark(String id) {
     if (_bookmarkedIds.contains(id)) {
       _bookmarkedIds.remove(id);
+      for (final f in _folders) {
+        f.removeIssue(id);
+      }
     } else {
       _bookmarkedIds.add(id);
+      if (_folders.isNotEmpty) {
+        _folders.first.addIssue(id);
+      }
     }
     notifyListeners();
   }
