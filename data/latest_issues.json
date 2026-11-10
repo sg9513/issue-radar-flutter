@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:22:52.349397",
+  "updated_at": "2026-11-11T07:00:59.918717",
   "count": 9,
   "items": [
     {
@@ -9,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "Gathin23/cleanyourtv: 신규 급상승 프로젝트",
       "summary": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "metric": "⭐ 55.8k stars",
+      "metric": "⭐ 56.0k stars",
       "tags": [
         "#Python",
         "#OpenSource",
@@ -25,6 +25,24 @@
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
+      "title": "storytold/craft-anything: 신규 급상승 프로젝트",
+      "summary": "Craft Anything: understand how any software works, and craft your own.",
+      "metric": "⭐ 26.1k stars",
+      "tags": [
+        "#Rust",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/storytold/craft-anything"
+    },
+    {
+      "id": "gh-live-3",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
       "title": "deepseek-ai/DeepInfer: 신규 급상승 프로젝트",
       "summary": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "metric": "⭐ 25.8k stars",
@@ -37,24 +55,6 @@
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
       "source": "https://github.com/deepseek-ai/DeepInfer"
-    },
-    {
-      "id": "gh-live-3",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "storytold/craft-anything: 신규 급상승 프로젝트",
-      "summary": "Craft Anything: understand how any software works, and craft your own.",
-      "metric": "⭐ 25.5k stars",
-      "tags": [
-        "#Rust",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/storytold/craft-anything"
     },
     {
       "id": "rd-live-1",
@@ -115,9 +115,9 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"정승제\"",
-      "summary": "정승제 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"atp 파이널스\"",
+      "summary": "atp 파이널스 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
         "#실시간검색",
@@ -133,9 +133,9 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"한수아\"",
-      "summary": "한수아 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"농지\"",
+      "summary": "농지 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
         "#실시간검색",
@@ -151,9 +151,9 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"뉴데일리\"",
-      "summary": "뉴데일리 관련 급상승 검색어",
-      "metric": "🔥 1000+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"한진칼\"",
+      "summary": "한진칼 관련 급상승 검색어",
+      "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
         "#실시간검색",
@@ -168,57 +168,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "정승제",
+      "keyword": "atp 파이널스",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "정승제 관련 급상승 검색어"
+      "description": "atp 파이널스 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "한수아",
+      "keyword": "농지",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "한수아 관련 급상승 검색어"
+      "description": "농지 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "뉴데일리",
+      "keyword": "한진칼",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "뉴데일리 관련 급상승 검색어"
+      "description": "한진칼 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "jtbc",
+      "keyword": "샤워",
       "category": "실시간 검색어",
       "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "jtbc 관련 급상승 검색어"
+      "description": "샤워 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "금융보안원",
+      "keyword": "투자",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "금융보안원 관련 급상승 검색어"
+      "description": "투자 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "악뮤 콘서트",
+      "keyword": "항공기",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "악뮤 콘서트 관련 급상승 검색어"
+      "description": "항공기 관련 급상승 검색어"
     }
   ]
 }
