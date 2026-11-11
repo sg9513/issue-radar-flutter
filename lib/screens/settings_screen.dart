@@ -65,7 +65,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  '버전 1.3.0 (크롬 직통 연결 & 신규 이슈 하이라이트 탑재)',
+                  '버전 1.4.0 (지능형 백그라운드 푸시 & 진입 알림 제거)',
                   style: TextStyle(fontSize: 12, color: AppColors.textMuted),
                 ),
                 SizedBox(height: 8),

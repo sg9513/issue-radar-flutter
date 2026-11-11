@@ -19,6 +19,8 @@ class IssueService extends ChangeNotifier {
   DateTime? _lastUpdatedAt;
   bool _notificationEnabled = true;
   String? _recentNotificationMsg;
+  final Set<String> _knownIssueIds = {};
+  Timer? _backgroundTimer;
 
   // Custom Bookmark Folders
   final List<BookmarkFolder> _folders = [];
@@ -58,6 +60,21 @@ class IssueService extends ChangeNotifier {
     _initDefaultFolders();
     _initDefaultTrends();
     loadInitialData();
+    _startBackgroundWatcher();
+  }
+
+  void _startBackgroundWatcher() {
+    _backgroundTimer?.cancel();
+    // 15분마다 조용히 백그라운드 확인하여 '진짜 새로운 이슈'가 있을 때만 알림
+    _backgroundTimer = Timer.periodic(const Duration(minutes: 15), (_) {
+      _fetchLiveDataFromNetwork(sendNotification: true);
+    });
+  }
+
+  @override
+  void dispose() {
+    _backgroundTimer?.cancel();
+    super.dispose();
   }
 
   void setNotificationEnabled(bool enabled) {
@@ -152,6 +169,7 @@ class IssueService extends ChangeNotifier {
 
     if (_allIssues.isEmpty) {
       _allIssues = _getMockSeedIssues();
+      _knownIssueIds.addAll(_allIssues.map((e) => e.id));
       notifyListeners();
     }
 
@@ -164,7 +182,8 @@ class IssueService extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    await _fetchLiveDataFromNetwork(sendNotification: true);
+    // 사용자가 직접 화면을 당겨서 새로고침할 때는 상단바 알림 금지 (이미 화면을 보고 있으므로)
+    await _fetchLiveDataFromNetwork(sendNotification: false);
     _isLoading = false;
     notifyListeners();
   }
@@ -177,13 +196,24 @@ class IssueService extends ChangeNotifier {
       if (response.statusCode == 200) {
         final decoded = json.decode(utf8.decode(response.bodyBytes));
         if (decoded is Map<String, dynamic>) {
-          bool hasNewData = false;
+          bool hasBrandNewIssue = false;
+          IssueItem? brandNewTopItem;
+
           if (decoded['items'] != null && decoded['items'] is List) {
             final List<dynamic> list = decoded['items'];
             final newItems = list.map((item) => IssueItem.fromJson(item)).toList();
             if (newItems.isNotEmpty) {
+              // 이전에 없던 '진짜 새로운 이슈'가 들어왔는지 검사
+              if (_knownIssueIds.isNotEmpty) {
+                for (final item in newItems) {
+                  if (!_knownIssueIds.contains(item.id)) {
+                    hasBrandNewIssue = true;
+                    brandNewTopItem ??= item;
+                  }
+                }
+              }
+              _knownIssueIds.addAll(newItems.map((e) => e.id));
               _allIssues = newItems;
-              hasNewData = true;
             }
           }
 
@@ -196,10 +226,11 @@ class IssueService extends ChangeNotifier {
             _lastUpdatedAt = DateTime.tryParse(decoded['updated_at']);
           }
 
-          // 최신 정보가 성공적으로 수집/갱신되었을 때 시스템 푸시 알림 발송!
-          if (hasNewData && _notificationEnabled) {
-            final topHeadline = _allIssues.isNotEmpty ? _allIssues.first.title : '최신 핫이슈';
-            _recentNotificationMsg = '최신 이슈 ${_allIssues.length}건이 갱신되었습니다.';
+          // 사용자가 앱 화면을 보고 있을 때는 알림을 보내지 않고,
+          // 백그라운드에서 '진짜 새로운 이슈'가 새로 유입되었을 때만 상단바 푸시 발송!
+          if (sendNotification && hasBrandNewIssue && _notificationEnabled) {
+            final topHeadline = brandNewTopItem?.title ?? (_allIssues.isNotEmpty ? _allIssues.first.title : '최신 핫이슈');
+            _recentNotificationMsg = '새로운 이슈가 도착했습니다: $topHeadline';
 
             await NotificationService.showUpdateNotification(
               count: _allIssues.length,
