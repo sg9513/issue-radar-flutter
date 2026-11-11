@@ -48,7 +48,7 @@ class _TrendsScreenState extends State<TrendsScreen> {
         color: AppColors.primary,
         backgroundColor: AppColors.surface,
         onRefresh: () async {
-          await Future.delayed(const Duration(milliseconds: 500));
+          await widget.issueService.refreshIssues();
           if (mounted) setState(() {});
         },
         child: ListView.builder(
@@ -85,10 +85,17 @@ class _TrendsScreenState extends State<TrendsScreen> {
           onTap: () {
             // 원터치로 해당 키워드를 검색 필터로 넘김
             widget.issueService.setSearchQuery(item.keyword);
+            Navigator.of(context).popUntil((route) => route.isFirst);
+            // 메인 탭으로 이동시킬 수 있도록 피드백 제공
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
-                content: Text('\'${item.keyword}\' 관련 이슈를 검색합니다.'),
-                duration: const Duration(seconds: 1),
+                content: Text('\'${item.keyword}\' 키워드로 레이더 피드를 검색합니다.'),
+                duration: const Duration(seconds: 2),
+                action: SnackBarAction(
+                  label: '검색 취소',
+                  textColor: AppColors.primary,
+                  onPressed: () => widget.issueService.setSearchQuery(''),
+                ),
               ),
             );
           },

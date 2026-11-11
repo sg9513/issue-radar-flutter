@@ -214,7 +214,24 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           itemCount: issues.length,
                           itemBuilder: (context, index) {
-                            return IssueCard(item: issues[index]);
+                            final it = issues[index];
+                            final isSaved = widget.issueService.isBookmarked(it.id);
+                            return IssueCard(
+                              item: it,
+                              isBookmarked: isSaved,
+                              issueService: widget.issueService,
+                              onBookmarkToggle: () {
+                                widget.issueService.toggleBookmark(it.id);
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text(
+                                      isSaved ? '보관함에서 제거했습니다.' : '기본 보관함에 저장했습니다.',
+                                    ),
+                                    duration: const Duration(seconds: 1),
+                                  ),
+                                );
+                              },
+                            );
                           },
                         ),
                       ),

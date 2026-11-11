@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../models/issue_item.dart';
+import '../services/issue_service.dart';
 import '../theme/app_theme.dart';
 import 'detail_sheet.dart';
 
@@ -7,12 +9,14 @@ class IssueCard extends StatefulWidget {
   final IssueItem item;
   final VoidCallback? onBookmarkToggle;
   final bool isBookmarked;
+  final IssueService? issueService;
 
   const IssueCard({
     Key? key,
     required this.item,
     this.onBookmarkToggle,
     this.isBookmarked = false,
+    this.issueService,
   }) : super(key: key);
 
   @override
@@ -64,7 +68,10 @@ class _IssueCardState extends State<IssueCard> {
               context: context,
               isScrollControlled: true,
               backgroundColor: Colors.transparent,
-              builder: (context) => DetailSheet(item: item),
+              builder: (context) => DetailSheet(
+                item: item,
+                issueService: widget.issueService,
+              ),
             );
           },
           child: Padding(
@@ -181,14 +188,41 @@ class _IssueCardState extends State<IssueCard> {
                       ),
                     );
                   }).toList(),
+              // Quick Action Icons on Card
+              Padding(
+                padding: const EdgeInsets.only(top: 8),
+                child: Row(
+                  children: [
+                    const Spacer(),
+                    IconButton(
+                      icon: Icon(
+                        widget.isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                        size: 20,
+                        color: widget.isBookmarked ? AppColors.primary : AppColors.textMuted,
+                      ),
+                      tooltip: '보관함 바로 저장',
+                      onPressed: () {
+                        if (widget.onBookmarkToggle != null) {
+                          widget.onBookmarkToggle!();
+                        }
+                      },
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.share_outlined, size: 19, color: AppColors.textMuted),
+                      tooltip: '공유하기',
+                      onPressed: () {
+                        Clipboard.setData(ClipboardData(text: '${item.title}\n${item.sourceUrl}'));
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('제목과 원문 링크가 클립보드에 복사되었습니다.'),
+                            duration: Duration(seconds: 1),
+                          ),
+                        );
+                      },
+                    ),
+                  ],
                 ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
+              ),
 
   Color _getChannelColor(IssueChannel channel) {
     switch (channel) {

@@ -65,7 +65,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  '버전 1.4.0 (지능형 백그라운드 푸시 & 진입 알림 제거)',
+                  '버전 1.5.0 (원터치 원문 공유·원클릭 스크랩·동적 폴더 연동)',
                   style: TextStyle(fontSize: 12, color: AppColors.textMuted),
                 ),
                 SizedBox(height: 8),

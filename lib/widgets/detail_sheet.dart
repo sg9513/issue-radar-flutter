@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/issue_item.dart';
+import '../services/issue_service.dart';
 import '../theme/app_theme.dart';
 
 class DetailSheet extends StatelessWidget {
   final IssueItem item;
+  final IssueService? issueService;
 
-  const DetailSheet({Key? key, required this.item}) : super(key: key);
+  const DetailSheet({Key? key, required this.item, this.issueService}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -320,6 +322,8 @@ class DetailSheet extends StatelessWidget {
   }
 
   void _showSaveToFolderModal(BuildContext context) {
+    final folders = issueService?.folders ?? [];
+
     showModalBottomSheet(
       context: context,
       backgroundColor: Colors.transparent,
@@ -345,9 +349,41 @@ class DetailSheet extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 16),
-              _buildFolderChoiceTile(context, '📌 중요 스크랩'),
-              _buildFolderChoiceTile(context, '💡 AI 기술 동향'),
-              _buildFolderChoiceTile(context, '🛠️ 개발 꿀팁 & 도구'),
+              if (folders.isEmpty)
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: 12),
+                  child: Text(
+                    '생성된 보관함이 없습니다. 보관함 탭에서 새 폴더를 만들어보세요.',
+                    style: TextStyle(color: AppColors.textSecondary, fontSize: 13),
+                  ),
+                )
+              else
+                ...folders.map((f) {
+                  final isAlreadyIn = f.issueIds.contains(item.id);
+                  return ListTile(
+                    contentPadding: EdgeInsets.zero,
+                    leading: Icon(
+                      isAlreadyIn ? Icons.check_circle : Icons.check_circle_outline,
+                      color: isAlreadyIn ? AppColors.success : AppColors.textSecondary,
+                    ),
+                    title: Text(f.name, style: const TextStyle(fontSize: 14, color: AppColors.textPrimary)),
+                    trailing: Text('${f.count}개', style: const TextStyle(fontSize: 12, color: AppColors.textMuted)),
+                    onTap: () {
+                      if (issueService != null) {
+                        issueService!.toggleSaveToFolder(f.id, item.id);
+                      }
+                      Navigator.pop(context);
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(isAlreadyIn
+                              ? '\'${f.name}\'에서 제외했습니다.'
+                              : '\'${f.name}\'에 저장했습니다.'),
+                          duration: const Duration(seconds: 1),
+                        ),
+                      );
+                    },
+                  );
+                }),
               const SizedBox(height: 12),
             ],
           ),

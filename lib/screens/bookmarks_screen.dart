@@ -213,7 +213,16 @@ class _BookmarksScreenState extends State<BookmarksScreen> {
               padding: const EdgeInsets.symmetric(vertical: 8),
               itemCount: issues.length,
               itemBuilder: (context, index) {
-                return IssueCard(item: issues[index]);
+                final it = issues[index];
+                final isSaved = widget.issueService.isBookmarked(it.id);
+                return IssueCard(
+                  item: it,
+                  isBookmarked: isSaved,
+                  issueService: widget.issueService,
+                  onBookmarkToggle: () {
+                    widget.issueService.toggleBookmark(it.id);
+                  },
+                );
               },
             ),
     );
