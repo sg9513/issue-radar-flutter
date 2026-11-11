@@ -1,7 +1,7 @@
 name: issue_radar
 description: "5대 플랫폼(GitHub, Reddit, X, Facebook, Google) 실시간 이슈 레이더 네이티브 앱"
 publish_to: 'none'
-version: 1.5.0+5
+version: 1.5.1+6
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

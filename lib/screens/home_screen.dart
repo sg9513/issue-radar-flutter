@@ -35,7 +35,16 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _onServiceUpdate() {
-    if (mounted) setState(() {});
+    if (mounted) {
+      if (widget.issueService.searchQuery.isNotEmpty) {
+        if (_searchController.text != widget.issueService.searchQuery) {
+          _searchController.text = widget.issueService.searchQuery;
+        }
+        // 트렌드 탭 등 외부에서 검색어가 주입되면 즉시 레이더 피드 탭으로 전환!
+        _currentBottomNavIndex = 0;
+      }
+      setState(() {});
+    }
   }
 
   @override
@@ -60,7 +69,9 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: (index) {
           setState(() {
             _currentBottomNavIndex = index;
-            if (index == 0) _isSearching = false;
+            if (index == 0 && widget.issueService.searchQuery.isEmpty) {
+              _isSearching = false;
+            }
           });
         },
         items: const [
@@ -76,6 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildRadarFeedScreen() {
     final issues = widget.issueService.filteredIssues;
     final notice = widget.issueService.recentNotificationMsg;
+    final activeQuery = widget.issueService.searchQuery;
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -143,12 +155,82 @@ class _HomeScreenState extends State<HomeScreen> {
           if (!_isSearching)
             IconButton(
               icon: const Icon(Icons.search, color: AppColors.textSecondary),
-              onPressed: () => setState(() => _isSearching = true),
+              onPressed: () {
+                _searchController.text = widget.issueService.searchQuery;
+                setState(() => _isSearching = true);
+              },
             ),
         ],
       ),
       body: Column(
         children: [
+          // Active Search Filter Banner with Instant Clear Button
+          if (activeQuery.isNotEmpty)
+            Container(
+              margin: const EdgeInsets.fromLTRB(16, 6, 16, 6),
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+              decoration: BoxDecoration(
+                color: AppColors.primary.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: AppColors.primary.withOpacity(0.4)),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.filter_alt, size: 16, color: AppColors.primary),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text.rich(
+                      TextSpan(
+                        children: [
+                          const TextSpan(text: '키워드 필터: ', style: TextStyle(color: AppColors.textSecondary, fontSize: 13)),
+                          TextSpan(
+                            text: '\'$activeQuery\'',
+                            style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 13),
+                          ),
+                          TextSpan(
+                            text: ' (${issues.length}건)',
+                            style: const TextStyle(color: AppColors.primary, fontWeight: FontWeight.w600, fontSize: 12),
+                          ),
+                        ],
+                      ),
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  InkWell(
+                    borderRadius: BorderRadius.circular(8),
+                    onTap: () {
+                      _searchController.clear();
+                      widget.issueService.setSearchQuery('');
+                      setState(() => _isSearching = false);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      decoration: BoxDecoration(
+                        color: AppColors.surfaceLighter,
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(color: AppColors.border),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: const [
+                          Icon(Icons.close, size: 14, color: AppColors.danger),
+                          SizedBox(width: 4),
+                          Text(
+                            '필터 해제',
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w700,
+                              color: AppColors.textPrimary,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
           // New Update Alert Banner
           if (notice != null)
             Container(
@@ -194,13 +276,34 @@ class _HomeScreenState extends State<HomeScreen> {
                     ? Center(
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
-                            Icon(Icons.search_off, size: 48, color: AppColors.textMuted),
-                            SizedBox(height: 12),
+                          children: [
+                            const Icon(Icons.search_off, size: 48, color: AppColors.textMuted),
+                            const SizedBox(height: 12),
                             Text(
-                              '검색된 이슈가 없습니다.',
-                              style: TextStyle(color: AppColors.textSecondary),
+                              activeQuery.isNotEmpty
+                                  ? '\'$activeQuery\' 관련 이슈가 없습니다.'
+                                  : '해당 조건의 이슈가 없습니다.',
+                              style: const TextStyle(color: AppColors.textSecondary, fontSize: 14),
                             ),
+                            if (activeQuery.isNotEmpty || widget.issueService.selectedChannel != IssueChannel.all) ...[
+                              const SizedBox(height: 16),
+                              ElevatedButton.icon(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: AppColors.primary,
+                                  foregroundColor: Colors.white,
+                                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                                ),
+                                icon: const Icon(Icons.filter_alt_off, size: 18),
+                                label: const Text('필터 해제하고 전체 보기'),
+                                onPressed: () {
+                                  _searchController.clear();
+                                  widget.issueService.setSearchQuery('');
+                                  widget.issueService.setChannel(IssueChannel.all);
+                                  setState(() => _isSearching = false);
+                                },
+                              ),
+                            ],
                           ],
                         ),
                       )

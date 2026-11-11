@@ -65,7 +65,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  '버전 1.5.0 (원터치 원문 공유·원클릭 스크랩·동적 폴더 연동)',
+                  '버전 1.5.1 (키워드 검색 원터치 해제 바 & 필터 전체 복구 탑재)',
                   style: TextStyle(fontSize: 12, color: AppColors.textMuted),
                 ),
                 SizedBox(height: 8),
