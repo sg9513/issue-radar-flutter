@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T16:51:46.194402",
-  "count": 10,
+  "updated_at": "2026-11-11T21:56:01.526192",
+  "count": 8,
   "items": [
     {
       "id": "gh-live-1",
@@ -9,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "huamidev/GestaltX: 신규 급상승 프로젝트",
       "summary": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "metric": "⭐ 5.5k stars · Swift",
+      "metric": "⭐ 5.8k stars · Swift",
       "tags": [
         "#Swift",
         "#OpenSource",
@@ -27,7 +27,7 @@
       "badgeClass": "badge-github",
       "title": "Kianuni/Erosion-CN: 신규 급상승 프로젝트",
       "summary": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-      "metric": "⭐ 1.3k stars · Swift",
+      "metric": "⭐ 1.4k stars · Swift",
       "tags": [
         "#Swift",
         "#OpenSource",
@@ -43,54 +43,18 @@
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "AngleCentipede/ifunbox: 신규 급상승 프로젝트",
-      "summary": "Ifunbox 2026 pre-configured environment for seamless desktop software utility deployment on isolated workstation.",
-      "metric": "⭐ 880 stars · OpenSource",
+      "title": "HybridRobotics/supermimic: 신규 급상승 프로젝트",
+      "summary": "Humanoid whole-body motion tracking with one differentiable world model.",
+      "metric": "⭐ 944 stars · Python",
       "tags": [
-        "#OpenSource",
+        "#Python",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/AngleCentipede/ifunbox"
-    },
-    {
-      "id": "x-live-1",
-      "channel": "x",
-      "channelLabel": "X (실시간 트렌드)",
-      "badgeClass": "badge-x",
-      "title": "@Semiconsight: \"WOW!!\"",
-      "summary": "WOW!! 애플이 맥끼리 연결해서 맥 1대의 제한된 자원으로 돌리기 힘든 오픈웨이트 모델을 여러 대의 맥을 연결해서 돌릴 수 있게 하는 Harbor라는 앱을 개발 중에 있다고 한다. 역시! AI 시대에 어떤 식으로든 대응할거라고 믿었지! 그런데 썬더볼",
-      "metric": "🔥 실시간 X 화제 포스트",
-      "tags": [
-        "#X_Trending",
-        "#AI_Dev",
-        "@Semiconsight"
-      ],
-      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/Semiconsight/status/2120422199656149185"
-    },
-    {
-      "id": "x-live-2",
-      "channel": "x",
-      "channelLabel": "X (실시간 트렌드)",
-      "badgeClass": "badge-x",
-      "title": "@fednmad: \"<$GOOG  딥마인드, AI로 해킹 불가능한 소프트웨어를 만드는 길을 열었다?>\"",
-      "summary": "<$GOOG  딥마인드, AI로 해킹 불가능한 소프트웨어를 만드는 길을 열었다?>  구글 딥마인드가 AI를 활용해 전 세계 수십억 건의 비공개 메시지를 보호하는 암호화 코드의 안전성을 수학적으로 검증하는데 성공했다고 발표.  1. Gemini 4 Ca",
-      "metric": "🔥 실시간 X 화제 포스트",
-      "tags": [
-        "#X_Trending",
-        "#AI_Dev",
-        "@fednmad"
-      ],
-      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/fednmad/status/2120418750713549272"
+      "source": "https://github.com/HybridRobotics/supermimic"
     },
     {
       "id": "rd-live-1",
@@ -98,8 +62,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Protecting SSH Keys with macOS Secure Enclave",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 126점 및 댓글 45개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 126 points · 💬 45 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 262점 및 댓글 93개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 262 points · 💬 93 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -115,9 +79,9 @@
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Greg Kurtzer's Ginux is now a userspace kernel",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 46점 및 댓글 21개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 46 points · 💬 21 comments",
+      "title": "Using voltage glitching to unleash the A100 in my mining card",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 30점 및 댓글 6개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 30 points · 💬 6 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,7 +90,7 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://github.com/gmkurtzer/ginux"
+      "source": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/"
     },
     {
       "id": "fb-live-1",
@@ -151,12 +115,12 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"지진\"",
-      "summary": "지진 관련 급상승 검색어",
-      "metric": "🔥 1000+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"더 스카이 184\"",
+      "summary": "더 스카이 184 관련 급상승 검색어",
+      "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#지진",
+        "#더스카이184",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -169,12 +133,12 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"석유\"",
-      "summary": "석유 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"고잔동\"",
+      "summary": "고잔동 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#석유",
+        "#고잔동",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +150,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "지진",
+      "keyword": "더 스카이 184",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "지진 관련 급상승 검색어"
+      "description": "더 스카이 184 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "석유",
+      "keyword": "고잔동",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "석유 관련 급상승 검색어"
+      "description": "고잔동 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "흡연",
+      "keyword": "이종석",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "흡연 관련 급상승 검색어"
+      "description": "이종석 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "오유진",
+      "keyword": "외교관",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "오유진 관련 급상승 검색어"
+      "description": "외교관 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "남편",
+      "keyword": "xsmb",
       "category": "실시간 검색어",
-      "searchVolume": "2000+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "남편 관련 급상승 검색어"
+      "description": "xsmb 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "담배",
+      "keyword": "주차장",
       "category": "실시간 검색어",
-      "searchVolume": "5000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "담배 관련 급상승 검색어"
+      "description": "주차장 관련 급상승 검색어"
     }
   ]
 }
