@@ -1,131 +1,167 @@
 {
-  "updated_at": "2026-11-11T07:00:59.918717",
-  "count": 9,
+  "updated_at": "2026-11-11T16:51:46.194402",
+  "count": 10,
   "items": [
     {
       "id": "gh-live-1",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "Gathin23/cleanyourtv: 신규 급상승 프로젝트",
-      "summary": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "metric": "⭐ 56.0k stars",
+      "title": "huamidev/GestaltX: 신규 급상승 프로젝트",
+      "summary": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "metric": "⭐ 5.5k stars · Swift",
       "tags": [
-        "#Python",
+        "#Swift",
         "#OpenSource",
         "#Trending"
       ],
-      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/Gathin23/cleanyourtv"
+      "source": "https://github.com/huamidev/GestaltX"
     },
     {
       "id": "gh-live-2",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "storytold/craft-anything: 신규 급상승 프로젝트",
-      "summary": "Craft Anything: understand how any software works, and craft your own.",
-      "metric": "⭐ 26.1k stars",
+      "title": "Kianuni/Erosion-CN: 신규 급상승 프로젝트",
+      "summary": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "metric": "⭐ 1.3k stars · Swift",
       "tags": [
-        "#Rust",
+        "#Swift",
         "#OpenSource",
         "#Trending"
       ],
-      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/storytold/craft-anything"
+      "source": "https://github.com/Kianuni/Erosion-CN"
     },
     {
       "id": "gh-live-3",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "deepseek-ai/DeepInfer: 신규 급상승 프로젝트",
-      "summary": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "metric": "⭐ 25.8k stars",
+      "title": "AngleCentipede/ifunbox: 신규 급상승 프로젝트",
+      "summary": "Ifunbox 2026 pre-configured environment for seamless desktop software utility deployment on isolated workstation.",
+      "metric": "⭐ 880 stars · OpenSource",
       "tags": [
-        "#Python",
+        "#OpenSource",
         "#OpenSource",
         "#Trending"
       ],
-      "background": "최근 한 달간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 프로젝트입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 사내 도입 논의가 이어지고 있습니다.",
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/deepseek-ai/DeepInfer"
-    },
-    {
-      "id": "rd-live-1",
-      "channel": "reddit",
-      "channelLabel": "Reddit r/technology",
-      "badgeClass": "badge-reddit",
-      "title": "\"AI 코딩 에이전트 도입 후 시니어 엔지니어의 일상 변화와 딜레마\"",
-      "summary": "코드 작성 속도는 빨라졌으나 PR 리뷰 및 시스템 검증 병목이 심화되었다는 레딧 인기 포스트.",
-      "metric": "⬆️ 4.8k upvotes · 💬 1.2k comments",
-      "tags": [
-        "#Reddit",
-        "#DevLife",
-        "#AICoding"
-      ],
-      "background": "개발 생산성 도구 도입 6개월 차 현업 엔지니어의 솔직한 분석 글이 대규모 공감을 얻었습니다.",
-      "reactions": "코드 생성량 증가에 비례해 유지보수 부채가 늘어난다는 우려와 리뷰 자동화 툴의 필요성에 공감대가 형성되었습니다.",
-      "insight": "단순 코딩 자동화를 넘어 팀 단위의 코드 리뷰 거버넌스가 핵심 과제로 부상했습니다.",
-      "source": "https://reddit.com/r/technology"
+      "source": "https://github.com/AngleCentipede/ifunbox"
     },
     {
       "id": "x-live-1",
       "channel": "x",
-      "channelLabel": "X (트위터)",
+      "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "실리콘밸리 엔지니어들의 '멀티 LLM 하이브리드 파이프라인' 실전 팁 화제",
-      "summary": "복잡한 아키텍처 설계와 빠른 파일 수정을 서로 다른 특화 모델에 분담시키는 체인이 대세로 정착 중입니다.",
-      "metric": "🔁 18.5k reposts · ❤️ 42k likes",
+      "title": "@Semiconsight: \"WOW!!\"",
+      "summary": "WOW!! 애플이 맥끼리 연결해서 맥 1대의 제한된 자원으로 돌리기 힘든 오픈웨이트 모델을 여러 대의 맥을 연결해서 돌릴 수 있게 하는 Harbor라는 앱을 개발 중에 있다고 한다. 역시! AI 시대에 어떤 식으로든 대응할거라고 믿었지! 그런데 썬더볼",
+      "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
-        "#AIWorkflow",
-        "#DevTips"
+        "#AI_Dev",
+        "@Semiconsight"
       ],
-      "background": "단일 모델의 한계를 극복하기 위해 추론 모델과 코딩 특화 모델을 결합하는 방법론이 X에서 바이럴을 탔습니다.",
-      "reactions": "현업 개발자들이 각자의 커스텀 프롬프트와 에이전트 설정 노하우를 공유하며 스레드가 확산되었습니다.",
-      "insight": "다양한 모델의 장단점을 파악하고 조합하는 오케스트레이션 능력이 개발자의 필수 역량이 되고 있습니다.",
-      "source": "https://x.com/tech_trends"
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/Semiconsight/status/2120422199656149185"
+    },
+    {
+      "id": "x-live-2",
+      "channel": "x",
+      "channelLabel": "X (실시간 트렌드)",
+      "badgeClass": "badge-x",
+      "title": "@fednmad: \"<$GOOG  딥마인드, AI로 해킹 불가능한 소프트웨어를 만드는 길을 열었다?>\"",
+      "summary": "<$GOOG  딥마인드, AI로 해킹 불가능한 소프트웨어를 만드는 길을 열었다?>  구글 딥마인드가 AI를 활용해 전 세계 수십억 건의 비공개 메시지를 보호하는 암호화 코드의 안전성을 수학적으로 검증하는데 성공했다고 발표.  1. Gemini 4 Ca",
+      "metric": "🔥 실시간 X 화제 포스트",
+      "tags": [
+        "#X_Trending",
+        "#AI_Dev",
+        "@fednmad"
+      ],
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/fednmad/status/2120418750713549272"
+    },
+    {
+      "id": "rd-live-1",
+      "channel": "reddit",
+      "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
+      "badgeClass": "badge-reddit",
+      "title": "Protecting SSH Keys with macOS Secure Enclave",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 126점 및 댓글 45개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 126 points · 💬 45 comments",
+      "tags": [
+        "#DevCommunity",
+        "#TechDebate",
+        "#GlobalDev"
+      ],
+      "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
+      "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
+      "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
+      "source": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/"
+    },
+    {
+      "id": "rd-live-2",
+      "channel": "reddit",
+      "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
+      "badgeClass": "badge-reddit",
+      "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 46점 및 댓글 21개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 46 points · 💬 21 comments",
+      "tags": [
+        "#DevCommunity",
+        "#TechDebate",
+        "#GlobalDev"
+      ],
+      "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
+      "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
+      "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
+      "source": "https://github.com/gmkurtzer/ginux"
     },
     {
       "id": "fb-live-1",
       "channel": "facebook",
-      "channelLabel": "Facebook IT 개발자 그룹",
+      "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "국내 개발팀 대상 \"2026 하반기 실무 AI 도구 체감 만족도 1위\" 분석",
-      "summary": "국내 500개 테크 스타트업 서베이 결과, 사내 저장소 컨텍스트 연동 에이전트가 최우수 평가를 받았습니다.",
-      "metric": "👍 1.8k likes · 💬 420 comments",
+      "title": "앨리스 황 뒤엔 가족 간첩단?…\"10조원대 엔비디아 칩, 중국 공급 관여\" - 조선일보",
+      "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
+      "metric": "📰 주요 언론 속보",
       "tags": [
-        "#FacebookGroup",
-        "#DevTools",
-        "#Survey"
+        "#IT헤드라인",
+        "#TechNews",
+        "#업계동향"
       ],
-      "background": "국내 개발자 그룹에서 실시한 업무 생산성 설문조사 인포그래픽이 높은 공유 수를 기록했습니다.",
-      "reactions": "보안 규정과 사내 소스코드 유출 방지 가이드라인을 충족하는 온프레미스/엔터프라이즈 솔루션에 관심이 높습니다.",
-      "insight": "도구 도입을 넘어 사내 보안 거버넌스 구축이 엔지니어링 리더들의 최대 관심사입니다.",
-      "source": "https://facebook.com/groups/devkorea"
+      "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
+      "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
+      "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcXZ3cXRIRmtLZnFMdlV4QUZLajBhcU5WdkpkenBoczRoMjJnbnRPcXlyN3NoZ1hTdVhkbXNLRFZza1ZNd2haRU9vRXVGUzZZdmYxOXFTWEFta0xydFBvR0N4SFZ0Q0liT0FJbWhtLVJBSTc3b3JDbURYSjk2TFZJUDVzMA?oc=5"
     },
     {
       "id": "google-1",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"atp 파이널스\"",
-      "summary": "atp 파이널스 관련 급상승 검색어",
-      "metric": "🔥 500+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"지진\"",
+      "summary": "지진 관련 급상승 검색어",
+      "metric": "🔥 1000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#실시간검색",
-        "#실시간이슈"
+        "#지진",
+        "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
-      "reactions": "대중 및 테크 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
-      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 지표입니다.",
+      "reactions": "대중 및 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
+      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 실시간 지표입니다.",
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
@@ -133,92 +169,74 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"농지\"",
-      "summary": "농지 관련 급상승 검색어",
-      "metric": "🔥 500+ 검색 돌파",
-      "tags": [
-        "#GoogleTrends",
-        "#실시간검색",
-        "#실시간이슈"
-      ],
-      "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
-      "reactions": "대중 및 테크 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
-      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 지표입니다.",
-      "source": "https://trends.google.com/trending/rss?geo=KR"
-    },
-    {
-      "id": "google-3",
-      "channel": "google",
-      "channelLabel": "Google Trends 급상승",
-      "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"한진칼\"",
-      "summary": "한진칼 관련 급상승 검색어",
+      "title": "구글 급상승 검색어: \"석유\"",
+      "summary": "석유 관련 급상승 검색어",
       "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#실시간검색",
-        "#실시간이슈"
+        "#석유",
+        "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
-      "reactions": "대중 및 테크 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
-      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 지표입니다.",
+      "reactions": "대중 및 커뮤니티에서 해당 이슈의 맥락과 배경을 확인하려는 검색 유입이 급증하고 있습니다.",
+      "insight": "단기적인 대중적 관심사가 집중되는 영역을 즉각적으로 파악할 수 있는 실시간 지표입니다.",
       "source": "https://trends.google.com/trending/rss?geo=KR"
     }
   ],
   "trends": [
     {
       "rank": 1,
-      "keyword": "atp 파이널스",
+      "keyword": "지진",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "atp 파이널스 관련 급상승 검색어"
+      "description": "지진 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "농지",
+      "keyword": "석유",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "농지 관련 급상승 검색어"
+      "description": "석유 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "한진칼",
+      "keyword": "흡연",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "한진칼 관련 급상승 검색어"
+      "description": "흡연 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "샤워",
+      "keyword": "오유진",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "샤워 관련 급상승 검색어"
+      "description": "오유진 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "투자",
+      "keyword": "남편",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "투자 관련 급상승 검색어"
+      "description": "남편 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "항공기",
+      "keyword": "담배",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "5000+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "항공기 관련 급상승 검색어"
+      "description": "담배 관련 급상승 검색어"
     }
   ]
 }
