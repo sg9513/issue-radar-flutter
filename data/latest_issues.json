@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T21:56:01.526192",
-  "count": 8,
+  "updated_at": "2026-11-11T21:56:28.957254",
+  "count": 10,
   "items": [
     {
       "id": "gh-live-1",
@@ -57,13 +57,49 @@
       "source": "https://github.com/HybridRobotics/supermimic"
     },
     {
+      "id": "x-live-1",
+      "channel": "x",
+      "channelLabel": "X (실시간 트렌드)",
+      "badgeClass": "badge-x",
+      "title": "@lucas_flatwhite: \"AI 시대의 개발자를 꿈꾸는 학생 개발자에게\"",
+      "summary": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게  다시 읽어도 좋은 글.. 다 읽고 나니 요즘 동료들과 자주 나누는 질문,,  그러니까 LLM이 코드를 대부분 쓰게 되면 개발자에게 무엇이 남느냐는 질문에 대한 꽤 사려 깊은 답으로 읽혔어요.  '배포를 승",
+      "metric": "🔥 실시간 X 화제 포스트",
+      "tags": [
+        "#X_Trending",
+        "#AI_Dev",
+        "@lucas_flatwhite"
+      ],
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/lucas_flatwhite/status/2120496529303801909"
+    },
+    {
+      "id": "x-live-2",
+      "channel": "x",
+      "channelLabel": "X (실시간 트렌드)",
+      "badgeClass": "badge-x",
+      "title": "@lunamoth: \"- AI 코딩은 단기 개발 속도를 높이지만, ▲피상적 테스트 ▲과도한 복잡성 ▲코드 리뷰 부실을 유발해 시스\"",
+      "summary": "- AI 코딩은 단기 개발 속도를 높이지만, ▲피상적 테스트 ▲과도한 복잡성 ▲코드 리뷰 부실을 유발해 시스템의 장기적 취약성과 기술 부채를 키움  - 이로 인해 장애 빈도와 복구 시간이 늘어나고 개발자가 코드베이스를 이해하지 못하는 문제가 발생하므로",
+      "metric": "🔥 실시간 X 화제 포스트",
+      "tags": [
+        "#X_Trending",
+        "#AI_Dev",
+        "@lunamoth"
+      ],
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/lunamoth/status/2120488748677046562"
+    },
+    {
       "id": "rd-live-1",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Protecting SSH Keys with macOS Secure Enclave",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 262점 및 댓글 93개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 262 points · 💬 93 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 263점 및 댓글 93개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 263 points · 💬 93 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -80,8 +116,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Using voltage glitching to unleash the A100 in my mining card",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 30점 및 댓글 6개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 30 points · 💬 6 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 30점 및 댓글 7개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 30 points · 💬 7 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
