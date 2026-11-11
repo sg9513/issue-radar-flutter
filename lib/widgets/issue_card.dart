@@ -24,6 +24,25 @@ class IssueCard extends StatefulWidget {
 }
 
 class _IssueCardState extends State<IssueCard> {
+  Color _getChannelColor(IssueChannel channel) {
+    switch (channel) {
+      case IssueChannel.github:
+        return AppColors.github;
+      case IssueChannel.reddit:
+        return AppColors.reddit;
+      case IssueChannel.x:
+        return AppColors.xTwitter;
+      case IssueChannel.facebook:
+        return AppColors.facebook;
+      case IssueChannel.google:
+        return AppColors.google;
+      case IssueChannel.newUpdates:
+        return const Color(0xFF06B6D4);
+      default:
+        return AppColors.primary;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final item = widget.item;
@@ -57,7 +76,6 @@ class _IssueCardState extends State<IssueCard> {
         child: InkWell(
           borderRadius: BorderRadius.circular(16),
           onTap: () {
-            // 읽음 처리
             if (!item.isRead) {
               setState(() {
                 item.isRead = true;
@@ -188,58 +206,47 @@ class _IssueCardState extends State<IssueCard> {
                       ),
                     );
                   }).toList(),
-              // Quick Action Icons on Card
-              Padding(
-                padding: const EdgeInsets.only(top: 8),
-                child: Row(
-                  children: [
-                    const Spacer(),
-                    IconButton(
-                      icon: Icon(
-                        widget.isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                        size: 20,
-                        color: widget.isBookmarked ? AppColors.primary : AppColors.textMuted,
-                      ),
-                      tooltip: '보관함 바로 저장',
-                      onPressed: () {
-                        if (widget.onBookmarkToggle != null) {
-                          widget.onBookmarkToggle!();
-                        }
-                      },
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.share_outlined, size: 19, color: AppColors.textMuted),
-                      tooltip: '공유하기',
-                      onPressed: () {
-                        Clipboard.setData(ClipboardData(text: '${item.title}\n${item.sourceUrl}'));
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('제목과 원문 링크가 클립보드에 복사되었습니다.'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      },
-                    ),
-                  ],
                 ),
-              ),
-
-  Color _getChannelColor(IssueChannel channel) {
-    switch (channel) {
-      case IssueChannel.github:
-        return AppColors.github;
-      case IssueChannel.reddit:
-        return AppColors.reddit;
-      case IssueChannel.x:
-        return AppColors.xTwitter;
-      case IssueChannel.facebook:
-        return AppColors.facebook;
-      case IssueChannel.google:
-        return AppColors.google;
-      case IssueChannel.newUpdates:
-        return const Color(0xFF06B6D4);
-      default:
-        return AppColors.primary;
-    }
+                // Quick Action Icons on Card
+                Padding(
+                  padding: const EdgeInsets.only(top: 8),
+                  child: Row(
+                    children: [
+                      const Spacer(),
+                      IconButton(
+                        icon: Icon(
+                          widget.isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                          size: 20,
+                          color: widget.isBookmarked ? AppColors.primary : AppColors.textMuted,
+                        ),
+                        tooltip: '보관함 바로 저장',
+                        onPressed: () {
+                          if (widget.onBookmarkToggle != null) {
+                            widget.onBookmarkToggle!();
+                          }
+                        },
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.share_outlined, size: 19, color: AppColors.textMuted),
+                        tooltip: '공유하기',
+                        onPressed: () {
+                          Clipboard.setData(ClipboardData(text: '${item.title}\n${item.sourceUrl}'));
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('제목과 원문 링크가 클립보드에 복사되었습니다.'),
+                              duration: Duration(seconds: 1),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
