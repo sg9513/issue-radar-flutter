@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-12T15:55:34.331516",
+  "updated_at": "2026-11-12T18:38:40.622114",
   "count": 10,
   "items": [
     {
-      "id": "gh-live-1",
+      "id": "gh-1a95ce31",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
       "title": "Kianuni/Erosion-CN: 신규 급상승 프로젝트",
       "summary": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-      "metric": "⭐ 1.6k stars · Swift",
+      "metric": "⭐ 1.7k stars · Swift",
       "tags": [
         "#Swift",
         "#OpenSource",
@@ -21,13 +21,13 @@
       "source": "https://github.com/Kianuni/Erosion-CN"
     },
     {
-      "id": "gh-live-2",
+      "id": "gh-6b3d7174",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
       "title": "HybridRobotics/supermimic: 신규 급상승 프로젝트",
       "summary": "Humanoid whole-body motion tracking with one differentiable world model.",
-      "metric": "⭐ 1.1k stars · Python",
+      "metric": "⭐ 1.2k stars · Python",
       "tags": [
         "#Python",
         "#OpenSource",
@@ -39,13 +39,13 @@
       "source": "https://github.com/HybridRobotics/supermimic"
     },
     {
-      "id": "gh-live-3",
+      "id": "gh-9d418d6a",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
       "title": "FrigadeHQ/yogurt: 신규 급상승 프로젝트",
       "summary": "Private AI meeting notes. Free and open source.",
-      "metric": "⭐ 548 stars · TypeScript",
+      "metric": "⭐ 633 stars · TypeScript",
       "tags": [
         "#TypeScript",
         "#OpenSource",
@@ -57,7 +57,7 @@
       "source": "https://github.com/FrigadeHQ/yogurt"
     },
     {
-      "id": "x-live-1",
+      "id": "x-bb844b1e",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
@@ -75,7 +75,7 @@
       "source": "https://x.com/karpathy/status/1617979122627952640"
     },
     {
-      "id": "x-live-2",
+      "id": "x-904b67f8",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
@@ -93,13 +93,13 @@
       "source": "https://x.com/swyx/status/1672313768228306945"
     },
     {
-      "id": "rd-live-1",
+      "id": "rd-19eaaf26",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "93% of paint splatters are valid Perl programs (2019)",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 349점 및 댓글 48개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 349 points · 💬 48 comments",
+      "title": "Jane Street: Socratic Tutor",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 149점 및 댓글 38개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 149 points · 💬 38 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://www.mcmillen.dev/sigbovik/"
+      "source": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md"
     },
     {
-      "id": "rd-live-2",
+      "id": "rd-bb3c7f5f",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Tim Peters has died",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1074점 및 댓글 120개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 1074 points · 💬 120 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1186점 및 댓글 133개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 1186 points · 💬 133 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -129,7 +129,7 @@
       "source": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
     },
     {
-      "id": "fb-live-1",
+      "id": "fb-5a59db43",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
@@ -147,16 +147,16 @@
       "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb2FXdkRLRWpiTFZXenpkRjJfcUZQSERkMVRaWFJBRHhrc1drVkM1ZFNzRHF2ZjROTHBIM0h3Tk5PNGg4Sm1Za1M1cHRFYTZpUl8wZHRBRnV5TEw3VzRSbUVFWXp1QWxpbE1KYVdpVmFVdWF3c0JFSVM5YlNoWURwbU5USQ?oc=5"
     },
     {
-      "id": "google-1",
+      "id": "google-033f809c",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"스마트글래스\"",
-      "summary": "스마트글래스 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"국제 a 매치\"",
+      "summary": "국제 a 매치 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#스마트글래스",
+        "#국제a매치",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-2",
+      "id": "google-34ddddec",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"투자신탁\"",
-      "summary": "투자신탁 관련 급상승 검색어",
+      "title": "구글 급상승 검색어: \"인벤\"",
+      "summary": "인벤 관련 급상승 검색어",
       "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#투자신탁",
+        "#인벤",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "스마트글래스",
+      "keyword": "국제 a 매치",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "스마트글래스 관련 급상승 검색어"
+      "description": "국제 a 매치 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "투자신탁",
+      "keyword": "인벤",
       "category": "실시간 검색어",
       "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "투자신탁 관련 급상승 검색어"
+      "description": "인벤 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "혜리",
+      "keyword": "035420",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "혜리 관련 급상승 검색어"
+      "description": "035420 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "김현석",
+      "keyword": "pakistan vs sri lanka",
       "category": "실시간 검색어",
       "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "김현석 관련 급상승 검색어"
+      "description": "pakistan vs sri lanka 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "김휘집",
+      "keyword": "이부진",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "김휘집 관련 급상승 검색어"
+      "description": "이부진 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "천궁",
+      "keyword": "남대문 스카프 아저씨!",
       "category": "실시간 검색어",
-      "searchVolume": "5000+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "천궁 관련 급상승 검색어"
+      "description": "남대문 스카프 아저씨! 관련 급상승 검색어"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
+import '../services/notification_service.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);
@@ -42,6 +43,32 @@ class _SettingsScreenState extends State<SettingsScreen> {
             value: _breakingPushEnabled,
             onChanged: (val) => setState(() => _breakingPushEnabled = val),
           ),
+          const SizedBox(height: 12),
+          Container(
+            width: double.infinity,
+            margin: const EdgeInsets.only(bottom: 12),
+            child: ElevatedButton.icon(
+              icon: const Icon(Icons.notifications_active_outlined, size: 20),
+              label: const Text('🔔 스마트폰 상단바 알림 즉시 테스트'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.primary,
+                foregroundColor: Colors.white,
+                padding: const EdgeInsets.symmetric(vertical: 14),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+              ),
+              onPressed: () async {
+                await NotificationService.testNotification();
+                if (mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('스마트폰 상단바에 테스트 알림을 발송했습니다! 화면 상단바를 내려 확인해보세요.'),
+                      duration: Duration(seconds: 2),
+                    ),
+                  );
+                }
+              },
+            ),
+          ),
           const SizedBox(height: 24),
 
           _buildSectionHeader('앱 정보'),
@@ -65,7 +92,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  '버전 1.5.1 (키워드 검색 원터치 해제 바 & 필터 전체 복구 탑재)',
+                  '버전 1.6.0 (OS 네이티브 상단바 알림 & 실시간 이슈 즉시 감지 탑재)',
                   style: TextStyle(fontSize: 12, color: AppColors.textMuted),
                 ),
                 SizedBox(height: 8),

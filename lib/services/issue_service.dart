@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 import '../models/issue_item.dart';
 import '../models/bookmark_folder.dart';
 import '../models/trend_item.dart';
@@ -65,8 +66,8 @@ class IssueService extends ChangeNotifier {
 
   void _startBackgroundWatcher() {
     _backgroundTimer?.cancel();
-    // 15분마다 조용히 백그라운드 확인하여 '진짜 새로운 이슈'가 있을 때만 알림
-    _backgroundTimer = Timer.periodic(const Duration(minutes: 15), (_) {
+    // 5분마다 실시간 갱신 확인하여 '새로운 이슈' 유입 시 즉시 알림
+    _backgroundTimer = Timer.periodic(const Duration(minutes: 5), (_) {
       _fetchLiveDataFromNetwork(sendNotification: true);
     });
   }
@@ -188,7 +189,7 @@ class IssueService extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> _fetchLiveDataFromNetwork({bool sendNotification = false}) async {
+  Future<void> _fetchLiveDataFromNetwork({bool sendNotification = true}) async {
     try {
       final uri = Uri.parse('$liveDataUrl?t=${DateTime.now().millisecondsSinceEpoch}');
       final response = await http.get(uri).timeout(const Duration(seconds: 6));
@@ -199,19 +200,30 @@ class IssueService extends ChangeNotifier {
           bool hasBrandNewIssue = false;
           IssueItem? brandNewTopItem;
 
+          final prefs = await SharedPreferences.getInstance();
+          final savedIds = prefs.getStringList('seen_issue_ids') ?? [];
+          final savedTitles = prefs.getStringList('seen_issue_titles') ?? [];
+
           if (decoded['items'] != null && decoded['items'] is List) {
             final List<dynamic> list = decoded['items'];
             final newItems = list.map((item) => IssueItem.fromJson(item)).toList();
             if (newItems.isNotEmpty) {
-              // 이전에 없던 '진짜 새로운 이슈'가 들어왔는지 검사
-              if (_knownIssueIds.isNotEmpty) {
+              // SharedPreferences에 저장된 기존 목록과 비교하여 미확인 신규 이슈 검사
+              if (savedIds.isNotEmpty || savedTitles.isNotEmpty) {
                 for (final item in newItems) {
-                  if (!_knownIssueIds.contains(item.id)) {
+                  final isIdKnown = savedIds.contains(item.id) || _knownIssueIds.contains(item.id);
+                  final isTitleKnown = savedTitles.contains(item.title);
+                  if (!isIdKnown && !isTitleKnown) {
                     hasBrandNewIssue = true;
                     brandNewTopItem ??= item;
                   }
                 }
               }
+
+              // 새 이슈 목록 영구 저장
+              await prefs.setStringList('seen_issue_ids', newItems.map((e) => e.id).toList());
+              await prefs.setStringList('seen_issue_titles', newItems.map((e) => e.title).toList());
+
               _knownIssueIds.addAll(newItems.map((e) => e.id));
               _allIssues = newItems;
             }
@@ -226,9 +238,8 @@ class IssueService extends ChangeNotifier {
             _lastUpdatedAt = DateTime.tryParse(decoded['updated_at']);
           }
 
-          // 사용자가 앱 화면을 보고 있을 때는 알림을 보내지 않고,
-          // 백그라운드에서 '진짜 새로운 이슈'가 새로 유입되었을 때만 상단바 푸시 발송!
-          if (sendNotification && hasBrandNewIssue && _notificationEnabled) {
+          // 새로운 이슈가 포착되면 즉시 스마트폰 상단바 푸시 발송!
+          if (hasBrandNewIssue && _notificationEnabled) {
             final topHeadline = brandNewTopItem?.title ?? (_allIssues.isNotEmpty ? _allIssues.first.title : '최신 핫이슈');
             _recentNotificationMsg = '새로운 이슈가 도착했습니다: $topHeadline';
 
