@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:01:41.542273",
+  "updated_at": "2026-11-12T15:55:34.331516",
   "count": 10,
   "items": [
     {
@@ -9,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "Kianuni/Erosion-CN: 신규 급상승 프로젝트",
       "summary": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-      "metric": "⭐ 1.5k stars · Swift",
+      "metric": "⭐ 1.6k stars · Swift",
       "tags": [
         "#Swift",
         "#OpenSource",
@@ -27,7 +27,7 @@
       "badgeClass": "badge-github",
       "title": "HybridRobotics/supermimic: 신규 급상승 프로젝트",
       "summary": "Humanoid whole-body motion tracking with one differentiable world model.",
-      "metric": "⭐ 1.0k stars · Python",
+      "metric": "⭐ 1.1k stars · Python",
       "tags": [
         "#Python",
         "#OpenSource",
@@ -43,9 +43,9 @@
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "JDhruv14/line-art-animation: 신규 급상승 프로젝트",
-      "summary": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
-      "metric": "⭐ 427 stars · TypeScript",
+      "title": "FrigadeHQ/yogurt: 신규 급상승 프로젝트",
+      "summary": "Private AI meeting notes. Free and open source.",
+      "metric": "⭐ 548 stars · TypeScript",
       "tags": [
         "#TypeScript",
         "#OpenSource",
@@ -54,7 +54,7 @@
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/JDhruv14/line-art-animation"
+      "source": "https://github.com/FrigadeHQ/yogurt"
     },
     {
       "id": "x-live-1",
@@ -97,9 +97,9 @@
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "AWS emulator",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 480점 및 댓글 165개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 480 points · 💬 165 comments",
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 349점 및 댓글 48개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 349 points · 💬 48 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,7 +108,7 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://github.com/aws/aws-emulator"
+      "source": "https://www.mcmillen.dev/sigbovik/"
     },
     {
       "id": "rd-live-2",
@@ -116,8 +116,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Tim Peters has died",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 658점 및 댓글 65개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 658 points · 💬 65 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1074점 및 댓글 120개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 1074 points · 💬 120 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -133,7 +133,7 @@
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "앨리스 황 뒤엔 가족 간첩단?…\"10조원대 엔비디아 칩, 중국 공급 관여\" - 조선일보",
+      "title": "인텔 CEO 사임, 젠슨 황 위기... 美는 왜 사내 불륜에 엄격한가 - 조선일보",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcXZ3cXRIRmtLZnFMdlV4QUZLajBhcU5WdkpkenBoczRoMjJnbnRPcXlyN3NoZ1hTdVhkbXNLRFZza1ZNd2haRU9vRXVGUzZZdmYxOXFTWEFta0xydFBvR0N4SFZ0Q0liT0FJbWhtLVJBSTc3b3JDbURYSjk2TFZJUDVzMA?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb2FXdkRLRWpiTFZXenpkRjJfcUZQSERkMVRaWFJBRHhrc1drVkM1ZFNzRHF2ZjROTHBIM0h3Tk5PNGg4Sm1Za1M1cHRFYTZpUl8wZHRBRnV5TEw3VzRSbUVFWXp1QWxpbE1KYVdpVmFVdWF3c0JFSVM5YlNoWURwbU5USQ?oc=5"
     },
     {
       "id": "google-1",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"이지현\"",
-      "summary": "이지현 관련 급상승 검색어",
-      "metric": "🔥 10000+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"스마트글래스\"",
+      "summary": "스마트글래스 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#이지현",
+        "#스마트글래스",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -169,12 +169,12 @@
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"이재아\"",
-      "summary": "이재아 관련 급상승 검색어",
-      "metric": "🔥 500+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"투자신탁\"",
+      "summary": "투자신탁 관련 급상승 검색어",
+      "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#이재아",
+        "#투자신탁",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "이지현",
+      "keyword": "스마트글래스",
       "category": "실시간 검색어",
-      "searchVolume": "10000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "이지현 관련 급상승 검색어"
+      "description": "스마트글래스 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "이재아",
+      "keyword": "투자신탁",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "이재아 관련 급상승 검색어"
+      "description": "투자신탁 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "공무원",
+      "keyword": "혜리",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "공무원 관련 급상승 검색어"
+      "description": "혜리 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "전병우",
+      "keyword": "김현석",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "전병우 관련 급상승 검색어"
+      "description": "김현석 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "연금",
+      "keyword": "김휘집",
       "category": "실시간 검색어",
-      "searchVolume": "5000+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "연금 관련 급상승 검색어"
+      "description": "김휘집 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "운세",
+      "keyword": "천궁",
       "category": "실시간 검색어",
       "searchVolume": "5000+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "운세 관련 급상승 검색어"
+      "description": "천궁 관련 급상승 검색어"
     }
   ]
 }
