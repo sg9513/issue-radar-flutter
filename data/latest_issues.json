@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:01:14.322459",
+  "updated_at": "2026-11-13T15:55:39.674505",
   "count": 10,
   "items": [
     {
@@ -9,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "apex-compute/ANR: 신규 급상승 프로젝트",
       "summary": "Apex Neural Rendering (ANR) by Apex Compute",
-      "metric": "⭐ 885 stars · C++",
+      "metric": "⭐ 1.1k stars · C++",
       "tags": [
         "#C++",
         "#OpenSource",
@@ -27,7 +27,7 @@
       "badgeClass": "badge-github",
       "title": "AIRzZ90/study-materials-fork: 신규 급상승 프로젝트",
       "summary": "A cross-platform Tauri 2 interface and interaction practice project",
-      "metric": "⭐ 318 stars · TypeScript",
+      "metric": "⭐ 428 stars · TypeScript",
       "tags": [
         "#TypeScript",
         "#OpenSource",
@@ -39,22 +39,22 @@
       "source": "https://github.com/AIRzZ90/study-materials-fork"
     },
     {
-      "id": "gh-1b81aab5",
+      "id": "gh-d81cbc34",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "tigerogijzooav/Hyperliquid-Trade-Bot: 신규 급상승 프로젝트",
-      "summary": "Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, detect martingale/grid recovery strategies, and assess maximum drawdown...",
-      "metric": "⭐ 289 stars · Python",
+      "title": "makepad/relax: 신규 급상승 프로젝트",
+      "summary": "Relax Rust JIT",
+      "metric": "⭐ 311 stars · Rust",
       "tags": [
-        "#Python",
+        "#Rust",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot"
+      "source": "https://github.com/makepad/relax"
     },
     {
       "id": "x-bb844b1e",
@@ -98,8 +98,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Jensen Huang resigns",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 2499점 및 댓글 2422개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 2499 points · 💬 2422 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 3325점 및 댓글 3023개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 3325 points · 💬 3023 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -111,13 +111,13 @@
       "source": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
     },
     {
-      "id": "rd-0109a62c",
+      "id": "rd-bf42f7fc",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Rust 1.100",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 175점 및 댓글 100개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 175 points · 💬 100 comments",
+      "title": "IceWM",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 79점 및 댓글 30개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 79 points · 💬 30 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+      "source": "https://ice-wm.org/"
     },
     {
-      "id": "fb-6c132a50",
+      "id": "fb-aa0b4b32",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "젠슨 황, 사내 불륜도 걸렸다... \"엔비디아 이사회서 해임 준비\" - 조선일보",
+      "title": "젠슨 황 “나는 쓰레기 같은 놈”…완전 ‘딴사람’ 모습으로 무너졌다 - 한겨레",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSW9IRTc3bFNXVk1aUUxpM3gxd1ppeXExd1B1dGc1Wk1vTDQtNTlNcW50OTNyQ09YdDBJVGlqRm9WUlhhdmROcVotQTktYTdpRUViclR2bFpadVNUeG5FUkFsTU1PZ1pUSW5CRHdOd2l0TlhnR3BvdzVrWUVMcXhnNkc1SQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JTXY3M0ZfZ0RseVo1WjRWTDNLZDdqZHZ6Ni04YnFaWTRYZGRoRHJxcHB5cktKX1ItRGIxdFJWMHg5QmJnVXlhbjJZYkd3UGs5UzZVZmp1QWtmMjRBbVNNWTF0TExacy1fNHVZTEtNSQ?oc=5"
     },
     {
-      "id": "google-80e6fb60",
+      "id": "google-dd4b101e",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"여자 복식\"",
-      "summary": "여자 복식 관련 급상승 검색어",
-      "metric": "🔥 500+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"리트 만점자 ai 안경\"",
+      "summary": "리트 만점자 ai 안경 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#여자복식",
+        "#리트만점자ai안경",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-b44c469c",
+      "id": "google-4986fbd3",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"단풍\"",
-      "summary": "단풍 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"국기\"",
+      "summary": "국기 관련 급상승 검색어",
+      "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#단풍",
+        "#국기",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "여자 복식",
+      "keyword": "리트 만점자 ai 안경",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "여자 복식 관련 급상승 검색어"
+      "description": "리트 만점자 ai 안경 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "단풍",
+      "keyword": "국기",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "단풍 관련 급상승 검색어"
+      "description": "국기 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "양도소득세",
+      "keyword": "블랙웰",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "양도소득세 관련 급상승 검색어"
+      "description": "블랙웰 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "경기도",
+      "keyword": "대학수학능력시험",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "경기도 관련 급상승 검색어"
+      "description": "대학수학능력시험 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "italy vs france",
+      "keyword": "england vs australia",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "italy vs france 관련 급상승 검색어"
+      "description": "england vs australia 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "진양곤",
+      "keyword": "이혜훈",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "진양곤 관련 급상승 검색어"
+      "description": "이혜훈 관련 급상승 검색어"
     }
   ]
 }
