@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-11-14T21:55:48.575613",
+  "updated_at": "2026-11-15T07:01:28.705028",
   "count": 10,
   "items": [
     {
-      "id": "gh-7fee6178",
+      "id": "gh-63801289",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "deepseek-ai/chat-demo: 신규 급상승 프로젝트",
-      "summary": "Chat Demo",
-      "metric": "⭐ 1.4k stars · TypeScript",
+      "title": "Topkiflare74/ai--manus2.0: 신규 급상승 프로젝트",
+      "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+      "metric": "⭐ 678 stars · OpenSource",
       "tags": [
-        "#TypeScript",
+        "#OpenSource",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/deepseek-ai/chat-demo"
+      "source": "https://github.com/Topkiflare74/ai--manus2.0"
     },
     {
-      "id": "gh-e3f657ba",
+      "id": "gh-22f0f3b8",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "DevedevT/FFmpeg-GUI-Editor-Windows: 신규 급상승 프로젝트",
-      "summary": "Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French & Italian...",
-      "metric": "⭐ 1.0k stars · Visual Basic .NET",
+      "title": "trackboatwrightplan/GitHub-Copilot-app: 신규 급상승 프로젝트",
+      "summary": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories...",
+      "metric": "⭐ 673 stars · OpenSource",
       "tags": [
-        "#Visual Basic .NET",
+        "#OpenSource",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows"
+      "source": "https://github.com/trackboatwrightplan/GitHub-Copilot-app"
     },
     {
-      "id": "gh-a57ba4ff",
+      "id": "gh-563dae49",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "AIRzZ90/study-materials-fork: 신규 급상승 프로젝트",
-      "summary": "A cross-platform Tauri 2 interface and interaction practice project",
-      "metric": "⭐ 580 stars · TypeScript",
+      "title": "WarriorRemember/IPTV_Player_2.0: 신규 급상승 프로젝트",
+      "summary": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes...",
+      "metric": "⭐ 672 stars · Rust",
       "tags": [
-        "#TypeScript",
+        "#Rust",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/AIRzZ90/study-materials-fork"
+      "source": "https://github.com/WarriorRemember/IPTV_Player_2.0"
     },
     {
       "id": "x-bb844b1e",
@@ -93,13 +93,13 @@
       "source": "https://x.com/swyx/status/1672313768228306945"
     },
     {
-      "id": "rd-fc26caf9",
+      "id": "rd-2fc5f85f",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Why get an expensive Pi when I have an old phone?",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 153점 및 댓글 104개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 153 points · 💬 104 comments",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 487점 및 댓글 175개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 487 points · 💬 175 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/"
+      "source": "https://www.crissyfield.de/research/lovable-en/"
     },
     {
-      "id": "rd-d595775f",
+      "id": "rd-d45747cd",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Ggml v1.0.0",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 304점 및 댓글 47개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 304 points · 💬 47 comments",
+      "title": "SpaceX Catches the Starship to end Flight 15",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 210점 및 댓글 104개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 210 points · 💬 104 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,7 +126,7 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
+      "source": "https://x.com/i/broadcasts/2brajgZlOKRMka"
     },
     {
       "id": "fb-d39aa588",
@@ -147,16 +147,16 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DWVJSVFNmVUl2VVNBQWVlOHRDWXJPUlRhc3FvZUxqanlIUTFqQ0otcHMzWWhUNW1vZlJhTWhZcGllSW5OQzJsbzV0QUlKVjdlQ3RjUFBmU0vSAVRBVV95cUxNQjNjeXJPdXdrSUF6YlJjXzZnYV9HN2toYUJibmxmc0F6bnVEbmJvd2lrMjBheEhPb25ZcFRHZnZwUVkzcF82eU8wSC1nTF9yTVFobjg?oc=5"
     },
     {
-      "id": "google-36259ffc",
+      "id": "google-f8f58c8b",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"문정빈\"",
-      "summary": "문정빈 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"김하성\"",
+      "summary": "김하성 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#문정빈",
+        "#김하성",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-0de361fb",
+      "id": "google-38b25cc4",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"nhật bản đấu với brasil\"",
-      "summary": "nhật bản đấu với brasil 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"미라 안드레예바\"",
+      "summary": "미라 안드레예바 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#nhậtbảnđấuvớibrasil",
+        "#미라안드레예바",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "문정빈",
+      "keyword": "김하성",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "문정빈 관련 급상승 검색어"
+      "description": "김하성 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "nhật bản đấu với brasil",
+      "keyword": "미라 안드레예바",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "nhật bản đấu với brasil 관련 급상승 검색어"
+      "description": "미라 안드레예바 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "문무",
+      "keyword": "아버지",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "문무 관련 급상승 검색어"
+      "description": "아버지 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "아이오아이",
+      "keyword": "portugal vs denmark",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "아이오아이 관련 급상승 검색어"
+      "description": "portugal vs denmark 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "군산 불꽃 축제",
+      "keyword": "이세계아이돌",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "군산 불꽃 축제 관련 급상승 검색어"
+      "description": "이세계아이돌 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "박근혜",
+      "keyword": "빈",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "박근혜 관련 급상승 검색어"
+      "description": "빈 관련 급상승 검색어"
     }
   ]
 }
