@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-11-15T07:01:28.705028",
+  "updated_at": "2026-11-15T15:55:25.419234",
   "count": 10,
   "items": [
+    {
+      "id": "gh-3e0b7938",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "opencoredev/islandcn: 신규 급상승 프로젝트",
+      "summary": "The open-source Dynamic Island for React, installed with shadcn.",
+      "metric": "⭐ 690 stars · TypeScript",
+      "tags": [
+        "#TypeScript",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/opencoredev/islandcn"
+    },
     {
       "id": "gh-63801289",
       "channel": "github",
@@ -21,31 +39,13 @@
       "source": "https://github.com/Topkiflare74/ai--manus2.0"
     },
     {
-      "id": "gh-22f0f3b8",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "trackboatwrightplan/GitHub-Copilot-app: 신규 급상승 프로젝트",
-      "summary": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories...",
-      "metric": "⭐ 673 stars · OpenSource",
-      "tags": [
-        "#OpenSource",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/trackboatwrightplan/GitHub-Copilot-app"
-    },
-    {
       "id": "gh-563dae49",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
       "title": "WarriorRemember/IPTV_Player_2.0: 신규 급상승 프로젝트",
       "summary": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes...",
-      "metric": "⭐ 672 stars · Rust",
+      "metric": "⭐ 673 stars · Rust",
       "tags": [
         "#Rust",
         "#OpenSource",
@@ -57,40 +57,58 @@
       "source": "https://github.com/WarriorRemember/IPTV_Player_2.0"
     },
     {
-      "id": "x-bb844b1e",
+      "id": "x-2e4753ea",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@karpathy: \"The hottest new programming language is English\"",
-      "summary": "AI 코딩 에이전트와 LLM 프롬프트 엔지니어링의 패러다임 전환에 대한 안드레이 카파시의 통찰. 코드 구현보다 아키텍처와 명세 정의가 개발자의 본질적 역할이 되는 변화를 짚음.",
+      "title": "@francisco5kim: \"AI가 코드를 작성하고 업무를 자동화하면 기업의 IT 비용도 줄어들 것이라는 기대가 있습니다.\"",
+      "summary": "AI가 코드를 작성하고 업무를 자동화하면 기업의 IT 비용도 줄어들 것이라는 기대가 있습니다.  그런데 실제로는 반대 현상이 나타날 수도 있습니다. AI 덕분에 새로운 기능을 만드는 비용이 낮아지면 기업은 이전보다 훨씬 많은 기능을 개발하려고 할 수 ",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@karpathy"
+        "@francisco5kim"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "시니어 개발자들과 AI 연구원들이 에이전트 시대의 소프트웨어 엔지니어링 역량에 대해 활발히 논쟁 중입니다.",
-      "insight": "단순 코딩을 넘어 에이전트 하네스 구축과 시스템 설계 역량이 핵심 경쟁력이 되고 있습니다.",
-      "source": "https://x.com/karpathy/status/1617979122627952640"
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/francisco5kim/status/2121858509696537036"
     },
     {
-      "id": "x-904b67f8",
+      "id": "x-bcb67539",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@swyx: \"The Rise of the AI Engineer & Autonomous Workflows\"",
-      "summary": "개발 현장에서 Claude Code, Cursor, Copilot Agent를 결합해 병렬 워크트리를 자율 처리하는 최신 실무 파이프라인 정리.",
+      "title": "@AIpostofficial: \"\"AI 데이터센터가 지구를 파괴한다\"… 스코틀랜드 에든버러 도심 뒤덮은 6,000명 분노의 행진\"",
+      "summary": "\"AI 데이터센터가 지구를 파괴한다\"… 스코틀랜드 에든버러 도심 뒤덮은 6,000명 분노의 행진  80개 이상의 시민사회·환경 단체와 노동조합이 로열 마일에서 스코틀랜드 의회까지 거리 행진을 벌이며 무분별한 23건의 AI 데이터센터 개발 중단을 촉구한",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
-        "#AIEngineer",
-        "@swyx"
+        "#AI_Dev",
+        "@AIpostofficial"
       ],
-      "background": "자율형 코딩 에이전트 실전 도입 사례가 실시간 타임라인에서 큰 반응을 얻고 있습니다.",
-      "reactions": "개발 생산성 향상과 동시에 코드 리뷰 및 보안 검증 병목 해결책에 대한 팁들이 공유되고 있습니다.",
-      "insight": "복수 모델과 CLI 에이전트를 조합하는 멀티 에이전트 작업 환경이 표준으로 자리잡는 추세입니다.",
-      "source": "https://x.com/swyx/status/1672313768228306945"
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/AIpostofficial/status/2121857142919733491"
+    },
+    {
+      "id": "rd-d45747cd",
+      "channel": "reddit",
+      "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
+      "badgeClass": "badge-reddit",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1043점 및 댓글 696개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 1043 points · 💬 696 comments",
+      "tags": [
+        "#DevCommunity",
+        "#TechDebate",
+        "#GlobalDev"
+      ],
+      "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
+      "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
+      "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
+      "source": "https://www.spacex.com/launches/starship-flight-15"
     },
     {
       "id": "rd-2fc5f85f",
@@ -98,8 +116,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Lovable apps expose passport details and more than 200K private messages",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 487점 및 댓글 175개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 487 points · 💬 175 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 756점 및 댓글 300개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 756 points · 💬 300 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -109,24 +127,6 @@
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
       "source": "https://www.crissyfield.de/research/lovable-en/"
-    },
-    {
-      "id": "rd-d45747cd",
-      "channel": "reddit",
-      "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
-      "badgeClass": "badge-reddit",
-      "title": "SpaceX Catches the Starship to end Flight 15",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 210점 및 댓글 104개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 210 points · 💬 104 comments",
-      "tags": [
-        "#DevCommunity",
-        "#TechDebate",
-        "#GlobalDev"
-      ],
-      "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
-      "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
-      "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://x.com/i/broadcasts/2brajgZlOKRMka"
     },
     {
       "id": "fb-d39aa588",
@@ -147,16 +147,16 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DWVJSVFNmVUl2VVNBQWVlOHRDWXJPUlRhc3FvZUxqanlIUTFqQ0otcHMzWWhUNW1vZlJhTWhZcGllSW5OQzJsbzV0QUlKVjdlQ3RjUFBmU0vSAVRBVV95cUxNQjNjeXJPdXdrSUF6YlJjXzZnYV9HN2toYUJibmxmc0F6bnVEbmJvd2lrMjBheEhPb25ZcFRHZnZwUVkzcF82eU8wSC1nTF9yTVFobjg?oc=5"
     },
     {
-      "id": "google-f8f58c8b",
+      "id": "google-e1f11b2e",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"김하성\"",
-      "summary": "김하성 관련 급상승 검색어",
-      "metric": "🔥 500+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"테슬라 사이버캡\"",
+      "summary": "테슬라 사이버캡 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#김하성",
+        "#테슬라사이버캡",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-38b25cc4",
+      "id": "google-88ccbf36",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"미라 안드레예바\"",
-      "summary": "미라 안드레예바 관련 급상승 검색어",
+      "title": "구글 급상승 검색어: \"한국노동경제학회\"",
+      "summary": "한국노동경제학회 관련 급상승 검색어",
       "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#미라안드레예바",
+        "#한국노동경제학회",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "김하성",
+      "keyword": "테슬라 사이버캡",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "김하성 관련 급상승 검색어"
+      "description": "테슬라 사이버캡 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "미라 안드레예바",
+      "keyword": "한국노동경제학회",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "미라 안드레예바 관련 급상승 검색어"
+      "description": "한국노동경제학회 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "아버지",
+      "keyword": "예산",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "아버지 관련 급상승 검색어"
+      "description": "예산 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "portugal vs denmark",
+      "keyword": "조선소",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "portugal vs denmark 관련 급상승 검색어"
+      "description": "조선소 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "이세계아이돌",
+      "keyword": "요르단 알바레즈",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "이세계아이돌 관련 급상승 검색어"
+      "description": "요르단 알바레즈 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "빈",
+      "keyword": "지효",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "빈 관련 급상승 검색어"
+      "description": "지효 관련 급상승 검색어"
     }
   ]
 }
