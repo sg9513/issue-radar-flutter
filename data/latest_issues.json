@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-11-15T15:55:25.419234",
+  "updated_at": "2026-11-15T21:55:37.929588",
   "count": 10,
   "items": [
+    {
+      "id": "gh-30fd5d5a",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "duwqijlk/muse-protocol: 신규 급상승 프로젝트",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "metric": "⭐ 774 stars · Python",
+      "tags": [
+        "#Python",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/duwqijlk/muse-protocol"
+    },
     {
       "id": "gh-3e0b7938",
       "channel": "github",
@@ -9,7 +27,7 @@
       "badgeClass": "badge-github",
       "title": "opencoredev/islandcn: 신규 급상승 프로젝트",
       "summary": "The open-source Dynamic Island for React, installed with shadcn.",
-      "metric": "⭐ 690 stars · TypeScript",
+      "metric": "⭐ 709 stars · TypeScript",
       "tags": [
         "#TypeScript",
         "#OpenSource",
@@ -39,58 +57,40 @@
       "source": "https://github.com/Topkiflare74/ai--manus2.0"
     },
     {
-      "id": "gh-563dae49",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "WarriorRemember/IPTV_Player_2.0: 신규 급상승 프로젝트",
-      "summary": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes...",
-      "metric": "⭐ 673 stars · Rust",
-      "tags": [
-        "#Rust",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/WarriorRemember/IPTV_Player_2.0"
-    },
-    {
-      "id": "x-2e4753ea",
+      "id": "x-eea06366",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@francisco5kim: \"AI가 코드를 작성하고 업무를 자동화하면 기업의 IT 비용도 줄어들 것이라는 기대가 있습니다.\"",
-      "summary": "AI가 코드를 작성하고 업무를 자동화하면 기업의 IT 비용도 줄어들 것이라는 기대가 있습니다.  그런데 실제로는 반대 현상이 나타날 수도 있습니다. AI 덕분에 새로운 기능을 만드는 비용이 낮아지면 기업은 이전보다 훨씬 많은 기능을 개발하려고 할 수 ",
+      "title": "@giantkillerkim: \"신규 클라이언트/사업 개발 담당이 아닌 이상 역할은 크게 3가지만 남을듯\"",
+      "summary": "신규 클라이언트/사업 개발 담당이 아닌 이상 역할은 크게 3가지만 남을듯  1. 데이터셋 정리 및 입력  2. 데이터셋 기반 실무 (with AI)  3. 의사결정   1 은 대리급 이하, 2는 과장급, 3은 팀장급 이상의 업무가 되지않을까 싶다.",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@francisco5kim"
+        "@giantkillerkim"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/francisco5kim/status/2121858509696537036"
+      "source": "https://x.com/giantkillerkim/status/2121950059508163025"
     },
     {
-      "id": "x-bcb67539",
+      "id": "x-25656756",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@AIpostofficial: \"\"AI 데이터센터가 지구를 파괴한다\"… 스코틀랜드 에든버러 도심 뒤덮은 6,000명 분노의 행진\"",
-      "summary": "\"AI 데이터센터가 지구를 파괴한다\"… 스코틀랜드 에든버러 도심 뒤덮은 6,000명 분노의 행진  80개 이상의 시민사회·환경 단체와 노동조합이 로열 마일에서 스코틀랜드 의회까지 거리 행진을 벌이며 무분별한 23건의 AI 데이터센터 개발 중단을 촉구한",
+      "title": "@yis9617: \"애플 실리콘에서 GPU 코딩 에이전트 돌릴 때 롤아웃 대부분 구간 GPU가 놀고 있었다는 게 출발점.\"",
+      "summary": "애플 실리콘에서 GPU 코딩 에이전트 돌릴 때 롤아웃 대부분 구간 GPU가 놀고 있었다는 게 출발점.  - Metal Sandbox가 인스턴스별 파일 접근 제한 + 네이티브 커맨드 실행 + 맥 여러 대 묶은 커맨드 단위 스케줄링을 한 번에 처리 - 에",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@AIpostofficial"
+        "@yis9617"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/AIpostofficial/status/2121857142919733491"
+      "source": "https://x.com/yis9617/status/2121949606435299733"
     },
     {
       "id": "rd-d45747cd",
@@ -98,8 +98,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "SpaceX catches the Starship to end Flight 15",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1043점 및 댓글 696개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 1043 points · 💬 696 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1326점 및 댓글 899개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 1326 points · 💬 899 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -111,13 +111,13 @@
       "source": "https://www.spacex.com/launches/starship-flight-15"
     },
     {
-      "id": "rd-2fc5f85f",
+      "id": "rd-ae66ca6f",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 756점 및 댓글 300개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 756 points · 💬 300 comments",
+      "title": "Why did some Apollo missions carry a grenade launcher?",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 72점 및 댓글 42개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 72 points · 💬 42 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,7 +126,7 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://www.crissyfield.de/research/lovable-en/"
+      "source": "https://space.stackexchange.com/questions/37775"
     },
     {
       "id": "fb-d39aa588",
@@ -147,16 +147,16 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DWVJSVFNmVUl2VVNBQWVlOHRDWXJPUlRhc3FvZUxqanlIUTFqQ0otcHMzWWhUNW1vZlJhTWhZcGllSW5OQzJsbzV0QUlKVjdlQ3RjUFBmU0vSAVRBVV95cUxNQjNjeXJPdXdrSUF6YlJjXzZnYV9HN2toYUJibmxmc0F6bnVEbmJvd2lrMjBheEhPb25ZcFRHZnZwUVkzcF82eU8wSC1nTF9yTVFobjg?oc=5"
     },
     {
-      "id": "google-e1f11b2e",
+      "id": "google-dd26abcf",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"테슬라 사이버캡\"",
-      "summary": "테슬라 사이버캡 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"샤인머스캣\"",
+      "summary": "샤인머스캣 관련 급상승 검색어",
+      "metric": "🔥 2000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#테슬라사이버캡",
+        "#샤인머스캣",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-88ccbf36",
+      "id": "google-1773e218",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"한국노동경제학회\"",
-      "summary": "한국노동경제학회 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"김유재\"",
+      "summary": "김유재 관련 급상승 검색어",
+      "metric": "🔥 100+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#한국노동경제학회",
+        "#김유재",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "테슬라 사이버캡",
+      "keyword": "샤인머스캣",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "테슬라 사이버캡 관련 급상승 검색어"
+      "description": "샤인머스캣 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "한국노동경제학회",
+      "keyword": "김유재",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "한국노동경제학회 관련 급상승 검색어"
+      "description": "김유재 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "예산",
+      "keyword": "화물기",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "예산 관련 급상승 검색어"
+      "description": "화물기 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "조선소",
+      "keyword": "백신",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "조선소 관련 급상승 검색어"
+      "description": "백신 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "요르단 알바레즈",
+      "keyword": "로봇",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "요르단 알바레즈 관련 급상승 검색어"
+      "description": "로봇 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "지효",
+      "keyword": "문정빈",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "지효 관련 급상승 검색어"
+      "description": "문정빈 관련 급상승 검색어"
     }
   ]
 }
