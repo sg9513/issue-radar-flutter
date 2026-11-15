@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:55:37.929588",
+  "updated_at": "2026-11-16T07:01:16.413615",
   "count": 10,
   "items": [
     {
@@ -9,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "duwqijlk/muse-protocol: 신규 급상승 프로젝트",
       "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
-      "metric": "⭐ 774 stars · Python",
+      "metric": "⭐ 979 stars · Python",
       "tags": [
         "#Python",
         "#OpenSource",
@@ -21,85 +21,85 @@
       "source": "https://github.com/duwqijlk/muse-protocol"
     },
     {
-      "id": "gh-3e0b7938",
+      "id": "gh-d8cdd629",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "opencoredev/islandcn: 신규 급상승 프로젝트",
-      "summary": "The open-source Dynamic Island for React, installed with shadcn.",
-      "metric": "⭐ 709 stars · TypeScript",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker-: 신규 급상승 프로젝트",
+      "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android...",
+      "metric": "⭐ 473 stars · Makefile",
       "tags": [
-        "#TypeScript",
+        "#Makefile",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/opencoredev/islandcn"
+      "source": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"
     },
     {
-      "id": "gh-63801289",
+      "id": "gh-fa69adb1",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "Topkiflare74/ai--manus2.0: 신규 급상승 프로젝트",
-      "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "metric": "⭐ 678 stars · OpenSource",
+      "title": "WindGatorRise37/Gemini-Config-Checker-: 신규 급상승 프로젝트",
+      "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android...",
+      "metric": "⭐ 473 stars · Makefile",
       "tags": [
-        "#OpenSource",
+        "#Makefile",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/Topkiflare74/ai--manus2.0"
+      "source": "https://github.com/WindGatorRise37/Gemini-Config-Checker-"
     },
     {
-      "id": "x-eea06366",
+      "id": "x-9b415cb5",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@giantkillerkim: \"신규 클라이언트/사업 개발 담당이 아닌 이상 역할은 크게 3가지만 남을듯\"",
-      "summary": "신규 클라이언트/사업 개발 담당이 아닌 이상 역할은 크게 3가지만 남을듯  1. 데이터셋 정리 및 입력  2. 데이터셋 기반 실무 (with AI)  3. 의사결정   1 은 대리급 이하, 2는 과장급, 3은 팀장급 이상의 업무가 되지않을까 싶다.",
+      "title": "@jeongse01427675: \"수능이 사흘 남았는데 AI 안경 탐지기는 이제 만들기 시작함\"",
+      "summary": "수능이 사흘 남았는데 AI 안경 탐지기는 이제 만들기 시작함  과기정통부 산하 기관이 낸 개발 공고 → 예산 5천만 원 → 개발 기간 70일 → 감독관이 들고 다니며 블루투스·와이파이 신호를 잡는 방식  성능 검증은 내년 초에나 끝남 올해 수험생은 운",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@giantkillerkim"
+        "@jeongse01427675"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/giantkillerkim/status/2121950059508163025"
+      "source": "https://x.com/jeongse01427675/status/2122087259130249497"
     },
     {
-      "id": "x-25656756",
+      "id": "x-5cd0effe",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@yis9617: \"애플 실리콘에서 GPU 코딩 에이전트 돌릴 때 롤아웃 대부분 구간 GPU가 놀고 있었다는 게 출발점.\"",
-      "summary": "애플 실리콘에서 GPU 코딩 에이전트 돌릴 때 롤아웃 대부분 구간 GPU가 놀고 있었다는 게 출발점.  - Metal Sandbox가 인스턴스별 파일 접근 제한 + 네이티브 커맨드 실행 + 맥 여러 대 묶은 커맨드 단위 스케줄링을 한 번에 처리 - 에",
+      "title": "@gridonbtc: \"한국에서 지갑 서명 없이 참가 가능한 캠페인 10개, 상금 합계 약 30만 4,000달러\"",
+      "summary": "한국에서 지갑 서명 없이 참가 가능한 캠페인 10개, 상금 합계 약 30만 4,000달러  [글] 1. In Development AI 에세이 @indevmag @asteriskmgzn · 2만 4,000달러(5명, 1등 1만) · 개발도상국에 미칠 ",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@yis9617"
+        "@gridonbtc"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/yis9617/status/2121949606435299733"
+      "source": "https://x.com/gridonbtc/status/2122087252683788664"
     },
     {
-      "id": "rd-d45747cd",
+      "id": "rd-43fafb92",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "SpaceX catches the Starship to end Flight 15",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1326점 및 댓글 899개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 1326 points · 💬 899 comments",
+      "title": "Your Agent Will Pick the Hackable One",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 23점 및 댓글 4개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 23 points · 💬 4 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://www.spacex.com/launches/starship-flight-15"
+      "source": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/"
     },
     {
-      "id": "rd-ae66ca6f",
+      "id": "rd-f800b658",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Why did some Apollo missions carry a grenade launcher?",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 72점 및 댓글 42개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 72 points · 💬 42 comments",
+      "title": "A short explainer on how El Niño works [video]",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 117점 및 댓글 26개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 117 points · 💬 26 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://space.stackexchange.com/questions/37775"
+      "source": "https://www.youtube.com/watch?v=7_JF3etiAv8"
     },
     {
-      "id": "fb-d39aa588",
+      "id": "fb-93f06e67",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "“젠슨 황, 엔비디아 임원진에 ‘앨리스 황과 적절한 관계’ 거짓말” - 세계일보",
+      "title": "\"겸손은 연기, 반대하면 폭언\"… 젠슨 황 전기 작가의 폭로 - 조선일보",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DWVJSVFNmVUl2VVNBQWVlOHRDWXJPUlRhc3FvZUxqanlIUTFqQ0otcHMzWWhUNW1vZlJhTWhZcGllSW5OQzJsbzV0QUlKVjdlQ3RjUFBmU0vSAVRBVV95cUxNQjNjeXJPdXdrSUF6YlJjXzZnYV9HN2toYUJibmxmc0F6bnVEbmJvd2lrMjBheEhPb25ZcFRHZnZwUVkzcF82eU8wSC1nTF9yTVFobjg?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNXJ2SFZfMWo4UFNxS3dVMlN1VTdGcFU4a3VaeXdVeHBQVW5LYXNDcjhQejFEdzVJc0xGckxRVTRkWm5tUkM3RjRBZTZkMnhqRksyeXFfdlF3OFNTYnhlNmFac1I5eFhWV08ybFo5M09vSHFsM2V4ZnFmNVFRcFhxMmtaSQ?oc=5"
     },
     {
-      "id": "google-dd26abcf",
+      "id": "google-7ea5d00f",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"샤인머스캣\"",
-      "summary": "샤인머스캣 관련 급상승 검색어",
+      "title": "구글 급상승 검색어: \"패딩\"",
+      "summary": "패딩 관련 급상승 검색어",
       "metric": "🔥 2000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#샤인머스캣",
+        "#패딩",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-1773e218",
+      "id": "google-38b25cc4",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"김유재\"",
-      "summary": "김유재 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"미라 안드레예바\"",
+      "summary": "미라 안드레예바 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#김유재",
+        "#미라안드레예바",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "샤인머스캣",
+      "keyword": "패딩",
       "category": "실시간 검색어",
       "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "샤인머스캣 관련 급상승 검색어"
+      "description": "패딩 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "김유재",
+      "keyword": "미라 안드레예바",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "김유재 관련 급상승 검색어"
+      "description": "미라 안드레예바 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "화물기",
+      "keyword": "부산항",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "화물기 관련 급상승 검색어"
+      "description": "부산항 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "백신",
+      "keyword": "한화에어로스페이스",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "백신 관련 급상승 검색어"
+      "description": "한화에어로스페이스 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "로봇",
+      "keyword": "송지효",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "로봇 관련 급상승 검색어"
+      "description": "송지효 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "문정빈",
+      "keyword": "spain vs england",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "문정빈 관련 급상승 검색어"
+      "description": "spain vs england 관련 급상승 검색어"
     }
   ]
 }
