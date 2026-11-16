@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T15:55:42.520053",
+  "updated_at": "2026-11-16T15:56:07.103701",
   "count": 10,
   "items": [
     {
@@ -57,40 +57,40 @@
       "source": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"
     },
     {
-      "id": "x-bb844b1e",
+      "id": "x-c8bcc0d1",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@karpathy: \"The hottest new programming language is English\"",
-      "summary": "AI 코딩 에이전트와 LLM 프롬프트 엔지니어링의 패러다임 전환에 대한 안드레이 카파시의 통찰. 코드 구현보다 아키텍처와 명세 정의가 개발자의 본질적 역할이 되는 변화를 짚음.",
+      "title": "@xenomini1: \"아까 영화 좌석 찾는 앱 사례 봤는데, AI로 이렇게 빨리 뭔가를 만들 수 있다는 게 놀라웠을 거임.\"",
+      "summary": "아까 영화 좌석 찾는 앱 사례 봤는데, AI로 이렇게 빨리 뭔가를 만들 수 있다는 게 놀라웠을 거임.  이분은 Fable 5.5라는 AI 도구로 앱을 만들었다고 하는데, 이런 식으로 아이디어를 코딩 없이 빠르게 구현할 수 있는 노코드/로우코드 AI 개",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@karpathy"
+        "@xenomini1"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "시니어 개발자들과 AI 연구원들이 에이전트 시대의 소프트웨어 엔지니어링 역량에 대해 활발히 논쟁 중입니다.",
-      "insight": "단순 코딩을 넘어 에이전트 하네스 구축과 시스템 설계 역량이 핵심 경쟁력이 되고 있습니다.",
-      "source": "https://x.com/karpathy/status/1617979122627952640"
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/xenomini1/status/2122220698378912180"
     },
     {
-      "id": "x-904b67f8",
+      "id": "x-74e95b84",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@swyx: \"The Rise of the AI Engineer & Autonomous Workflows\"",
-      "summary": "개발 현장에서 Claude Code, Cursor, Copilot Agent를 결합해 병렬 워크트리를 자율 처리하는 최신 실무 파이프라인 정리.",
+      "title": "@high_value_M: \"건설연구원, AI 활용 지하공간 유해가스 위험 예측시스템 개발\"",
+      "summary": "건설연구원, AI 활용 지하공간 유해가스 위험 예측시스템 개발  #건설 #연구원 #활용 #지하  https://vodo.kr/BVAeHjI",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
-        "#AIEngineer",
-        "@swyx"
+        "#AI_Dev",
+        "@high_value_M"
       ],
-      "background": "자율형 코딩 에이전트 실전 도입 사례가 실시간 타임라인에서 큰 반응을 얻고 있습니다.",
-      "reactions": "개발 생산성 향상과 동시에 코드 리뷰 및 보안 검증 병목 해결책에 대한 팁들이 공유되고 있습니다.",
-      "insight": "복수 모델과 CLI 에이전트를 조합하는 멀티 에이전트 작업 환경이 표준으로 자리잡는 추세입니다.",
-      "source": "https://x.com/swyx/status/1672313768228306945"
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/high_value_M/status/2122214015439090076"
     },
     {
       "id": "rd-092efd18",
@@ -116,8 +116,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 256점 및 댓글 66개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 256 points · 💬 66 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 257점 및 댓글 66개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 257 points · 💬 66 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
