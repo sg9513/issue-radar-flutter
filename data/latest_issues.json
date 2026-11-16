@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17T07:24:59.552614",
-  "count": 8,
+  "updated_at": "2026-11-17T07:25:29.867152",
+  "count": 10,
   "items": [
     {
       "id": "gh-d8cdd629",
@@ -21,6 +21,60 @@
       "source": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"
     },
     {
+      "id": "gh-505b8416",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "joshpuckett/allo: 신규 급상승 프로젝트",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
+      "metric": "⭐ 280 stars · Python",
+      "tags": [
+        "#Python",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/joshpuckett/allo"
+    },
+    {
+      "id": "gh-7a099316",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "OceanChandlerSewer/rob-run-cheat-private: 신규 급상승 프로젝트",
+      "summary": "오픈소스 프로젝트",
+      "metric": "⭐ 236 stars · OpenSource",
+      "tags": [
+        "#OpenSource",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/OceanChandlerSewer/rob-run-cheat-private"
+    },
+    {
+      "id": "x-802bade0",
+      "channel": "x",
+      "channelLabel": "X (실시간 트렌드)",
+      "badgeClass": "badge-x",
+      "title": "@MrMarket89: \"https://x.com/i/article/2122452675715551232\"",
+      "summary": "https://x.com/i/article/2122452675715551232",
+      "metric": "🔥 실시간 X 화제 포스트",
+      "tags": [
+        "#X_Trending",
+        "#AI_Dev",
+        "@MrMarket89"
+      ],
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/MrMarket89/status/2122455311512752542"
+    },
+    {
       "id": "x-a0fbb08e",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
@@ -39,31 +93,13 @@
       "source": "https://x.com/tau_home/status/2122454654265262249"
     },
     {
-      "id": "x-7e6a7606",
-      "channel": "x",
-      "channelLabel": "X (실시간 트렌드)",
-      "badgeClass": "badge-x",
-      "title": "@My_dar4m: \"🎮 나흘 만에 게임 2,784개: 에픽게임즈 'AI MegaJam 2026' 마감\"",
-      "summary": "🎮 나흘 만에 게임 2,784개: 에픽게임즈 'AI MegaJam 2026' 마감  📌 무슨 일? 에픽게임즈가 연 4일짜리 게임 제작 대회 'Epic AI MegaJam 2026'이 주말에 끝났어요. 출품작이 2,784개나 됐어요. (https://i",
-      "metric": "🔥 실시간 X 화제 포스트",
-      "tags": [
-        "#X_Trending",
-        "#AI_Dev",
-        "@My_dar4m"
-      ],
-      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/My_dar4m/status/2122449018873597979"
-    },
-    {
       "id": "rd-7ccc1d89",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 95점 및 댓글 20개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 95 points · 💬 20 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 97점 및 댓글 20개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 97 points · 💬 20 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -80,8 +116,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Rust changed me as a developer",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 80점 및 댓글 36개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 80 points · 💬 36 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 80점 및 댓글 37개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 80 points · 💬 37 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -93,11 +129,11 @@
       "source": "https://blog.startifact.com/posts/how-rust-changed-me/"
     },
     {
-      "id": "fb-2b2e22e7",
+      "id": "fb-f5589acc",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "태양광 패널이 설치된 들판에서 양 방목하기",
+      "title": "“젠슨 황 ‘자아도취적 쾌감’에 푹 빠져…식당서 1000달러 팁 주기도” - 동아일보",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -108,7 +144,7 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.hada.io/topic?id=37305&utm_source=geeknews&utm_medium=rss&utm_campaign=news"
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZV1FvS0F5a1J2ZmZnczBKRmJiSVpoN0Q3dXEzWXM5S3VKVnB2QUJqS1BFRlNMRWtoRVhXdC1SWjdDbmEtcGYwX2RwNGFZSUw4dkN3cDd2SFFJNHlJQWtYZk5CNnRkNS1ReXBHQlRKRzBYRU3SAWZBVV95cUxPT19ySFYtR2lNQkNvMDRZekJ4ZTdqRTB0UlpHVDFQYUZ6QURkaW1wZzcyM01RSHYwaEtTWUtjMDBYQlVRM2tzNkNpRDRpRFBNclNlaGhNZFRhYnV1N3NtUWtuYVFyNVE?oc=5"
     },
     {
       "id": "google-32550e26",
