@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-11-17T07:25:29.867152",
+  "updated_at": "2026-11-17T15:56:03.863641",
   "count": 10,
   "items": [
+    {
+      "id": "gh-505b8416",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "joshpuckett/allo: 신규 급상승 프로젝트",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
+      "metric": "⭐ 475 stars · Python",
+      "tags": [
+        "#Python",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/joshpuckett/allo"
+    },
     {
       "id": "gh-d8cdd629",
       "channel": "github",
@@ -21,66 +39,48 @@
       "source": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"
     },
     {
-      "id": "gh-505b8416",
+      "id": "gh-8fc23cd4",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "joshpuckett/allo: 신규 급상승 프로젝트",
-      "summary": "Allo is your friendly neighborhood typeface, free and open source",
-      "metric": "⭐ 280 stars · Python",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor: 신규 급상승 프로젝트",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software ne...",
+      "metric": "⭐ 441 stars · C++",
       "tags": [
-        "#Python",
+        "#C++",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/joshpuckett/allo"
+      "source": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
     },
     {
-      "id": "gh-7a099316",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "OceanChandlerSewer/rob-run-cheat-private: 신규 급상승 프로젝트",
-      "summary": "오픈소스 프로젝트",
-      "metric": "⭐ 236 stars · OpenSource",
-      "tags": [
-        "#OpenSource",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/OceanChandlerSewer/rob-run-cheat-private"
-    },
-    {
-      "id": "x-802bade0",
+      "id": "x-68165a31",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@MrMarket89: \"https://x.com/i/article/2122452675715551232\"",
-      "summary": "https://x.com/i/article/2122452675715551232",
+      "title": "@igangsan54078: \"스테이블코인을 넘어 AI와 글로벌 금융 인프라로, TRON의 다음 성장 이야기 \"",
+      "summary": "스테이블코인을 넘어 AI와 글로벌 금융 인프라로, TRON의 다음 성장 이야기  @TronDao_KOR  @trondao   TRON 생태계를 살펴보면서 가장 인상 깊게 느끼는 부분은 실제 사람들이 사용하는 금융 인프라를 꾸준히 확장하고 있다는 점이에",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@MrMarket89"
+        "@igangsan54078"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/MrMarket89/status/2122455311512752542"
+      "source": "https://x.com/igangsan54078/status/2122583515137016038"
     },
     {
-      "id": "x-a0fbb08e",
+      "id": "x-47ba9dab",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@tau_home: \"내 컴퓨터나 외부 서버에서 돌아가는 여러 코딩\"",
-      "summary": "내 컴퓨터나 외부 서버에서 돌아가는 여러 코딩 AI 도구를 스마트폰과 웹으로 다룰 수 있는 t3code v2가 나왔습니다.  누구나 무료로 가져와 자유롭게 고쳐 쓸 수 있는 오픈소스 소프트웨어입니다.  Claude Code, Codex, Cursor,",
+      "title": "@tau_home: \"웹 화면을 만드는 코드로 정밀한 고화질 영상을\"",
+      "summary": "웹 화면을 만드는 코드로 정밀한 고화질 영상을 만드는 도구, 'HyperFrames'가 공개되었습니다.  누구나 자유롭게 가져다 쓸 수 있도록 프로그램 설계도(소스 코드)를 무료로 개방한 오픈소스 소프트웨어입니다.  영상 AI 기업 헤이젠(HeyGen",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
@@ -90,7 +90,7 @@
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/tau_home/status/2122454654265262249"
+      "source": "https://x.com/tau_home/status/2122572606306214242"
     },
     {
       "id": "rd-7ccc1d89",
@@ -98,8 +98,8 @@
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 97점 및 댓글 20개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 97 points · 💬 20 comments",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1209점 및 댓글 175개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 1209 points · 💬 175 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -111,13 +111,13 @@
       "source": "https://www.cs.cmu.edu/learn/"
     },
     {
-      "id": "rd-1ece2b80",
+      "id": "rd-bc3d919a",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Rust changed me as a developer",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 80점 및 댓글 37개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 80 points · 💬 37 comments",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 470점 및 댓글 312개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 470 points · 💬 312 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://blog.startifact.com/posts/how-rust-changed-me/"
+      "source": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
     },
     {
-      "id": "fb-f5589acc",
+      "id": "fb-26800d2c",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "“젠슨 황 ‘자아도취적 쾌감’에 푹 빠져…식당서 1000달러 팁 주기도” - 동아일보",
+      "title": "엔비디아 독주 흔들리면 구글·AMD로 HBM 공급 분산… “삼성전자가 최대 수혜자” - Chosunbiz",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZV1FvS0F5a1J2ZmZnczBKRmJiSVpoN0Q3dXEzWXM5S3VKVnB2QUJqS1BFRlNMRWtoRVhXdC1SWjdDbmEtcGYwX2RwNGFZSUw4dkN3cDd2SFFJNHlJQWtYZk5CNnRkNS1ReXBHQlRKRzBYRU3SAWZBVV95cUxPT19ySFYtR2lNQkNvMDRZekJ4ZTdqRTB0UlpHVDFQYUZ6QURkaW1wZzcyM01RSHYwaEtTWUtjMDBYQlVRM2tzNkNpRDRpRFBNclNlaGhNZFRhYnV1N3NtUWtuYVFyNVE?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT1Jhang1bkJKcURhVkdlT0t3ckM3ZW44YTg3eHRxenUwM3FVWkJjVG1BUEU2UEROX3RqcFNJeWdXLWdHVU0yU3NVVmU4MExmaXpxQmYzVDZpQXQ5NG9RMndMVDZfbS00MFAyQ2J5YUNxa3AyYVI1ZUEyTERXQWx5SEhR0gGWAUFVX3lxTE1obFFDTnYwVEZSbG1HeXpMZW0xVExRU3JQLXhVOFlid1lCZWl4dTk0SjBpTkY0SFR5UUg4emJnMVN3ZDdBQnluSDRSa2FubUVxZ3RUVEV6cXBvcXl5UFk2cWFaSWtDUV9JU3RuN0xMNlJ2YmxGRUNnZmlIVHItNmFfT3RmaGNQWE1mWVJuMFRFZ0JrNG9Bdw?oc=5"
     },
     {
-      "id": "google-32550e26",
+      "id": "google-7601f3cf",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"thời tiết\"",
-      "summary": "thời tiết 관련 급상승 검색어",
-      "metric": "🔥 1000+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"구축함\"",
+      "summary": "구축함 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#thờitiết",
+        "#구축함",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-d57ba6e9",
+      "id": "google-7fa84f52",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"погода\"",
-      "summary": "погода 관련 급상승 검색어",
+      "title": "구글 급상승 검색어: \"소프트웨어\"",
+      "summary": "소프트웨어 관련 급상승 검색어",
       "metric": "🔥 1000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#погода",
+        "#소프트웨어",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "thời tiết",
+      "keyword": "구축함",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "thời tiết 관련 급상승 검색어"
+      "description": "구축함 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "погода",
+      "keyword": "소프트웨어",
       "category": "실시간 검색어",
       "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "погода 관련 급상승 검색어"
+      "description": "소프트웨어 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "germany vs netherlands",
+      "keyword": "전두환",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "germany vs netherlands 관련 급상승 검색어"
+      "description": "전두환 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "天气",
+      "keyword": "sri lanka vs pakistan",
       "category": "실시간 검색어",
-      "searchVolume": "500+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "天气 관련 급상승 검색어"
+      "description": "sri lanka vs pakistan 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "สภาพอากาศ",
+      "keyword": "전남광주통합특별시교육청",
       "category": "실시간 검색어",
       "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "สภาพอากาศ 관련 급상승 검색어"
+      "description": "전남광주통합특별시교육청 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "아리바이오",
+      "keyword": "고지용",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "아리바이오 관련 급상승 검색어"
+      "description": "고지용 관련 급상승 검색어"
     }
   ]
 }
