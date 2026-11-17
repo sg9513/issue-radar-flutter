@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T21:55:49.554522",
+  "updated_at": "2026-11-18T07:00:39.860447",
   "count": 10,
   "items": [
     {
@@ -9,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "krisgfx9/Wireless-Device-Battery-Monitor: 신규 급상승 프로젝트",
       "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software ne...",
-      "metric": "⭐ 1.2k stars · C++",
+      "metric": "⭐ 2.5k stars · C++",
       "tags": [
         "#C++",
         "#OpenSource",
@@ -21,13 +21,13 @@
       "source": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
     },
     {
-      "id": "gh-505b8416",
+      "id": "gh-d8ab91d4",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "joshpuckett/allo: 신규 급상승 프로젝트",
-      "summary": "Allo is your friendly neighborhood typeface, free and open source",
-      "metric": "⭐ 684 stars · Python",
+      "title": "gylive/google-ultra: 신규 급상승 프로젝트",
+      "summary": "오픈소스 프로젝트",
+      "metric": "⭐ 1.4k stars · Python",
       "tags": [
         "#Python",
         "#OpenSource",
@@ -36,70 +36,70 @@
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/joshpuckett/allo"
+      "source": "https://github.com/gylive/google-ultra"
     },
     {
-      "id": "gh-3f320b14",
+      "id": "gh-dfda4f22",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "sybil-solutions/inference-optimisation-skill: 신규 급상승 프로젝트",
-      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-      "metric": "⭐ 567 stars · Python",
+      "title": "erkamyaman/rust-anything: 신규 급상승 프로젝트",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries ...",
+      "metric": "⭐ 1.1k stars · Rust",
       "tags": [
-        "#Python",
+        "#Rust",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/sybil-solutions/inference-optimisation-skill"
+      "source": "https://github.com/erkamyaman/rust-anything"
     },
     {
-      "id": "x-53530800",
+      "id": "x-bb844b1e",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@sitinh76qn: \"제가 TermiX에서 가장 흥미롭게 생각하는 부분은 AI Agent가 단순히 질문에 답하거나 사용자를 돕는 \"",
-      "summary": "제가 TermiX에서 가장 흥미롭게 생각하는 부분은 AI Agent가 단순히 질문에 답하거나 사용자를 돕는 수준을 넘어, 스스로 일자리를 찾고 협력하며 실질적인 경제적 가치를 만들어 내는 방향으로 발전하고 있다는 점입니다.  전문 분야가 다른 에이전트",
+      "title": "@karpathy: \"The hottest new programming language is English\"",
+      "summary": "AI 코딩 에이전트와 LLM 프롬프트 엔지니어링의 패러다임 전환에 대한 안드레이 카파시의 통찰. 코드 구현보다 아키텍처와 명세 정의가 개발자의 본질적 역할이 되는 변화를 짚음.",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@sitinh76qn"
+        "@karpathy"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/sitinh76qn/status/2122673483523981700"
+      "reactions": "시니어 개발자들과 AI 연구원들이 에이전트 시대의 소프트웨어 엔지니어링 역량에 대해 활발히 논쟁 중입니다.",
+      "insight": "단순 코딩을 넘어 에이전트 하네스 구축과 시스템 설계 역량이 핵심 경쟁력이 되고 있습니다.",
+      "source": "https://x.com/karpathy/status/1617979122627952640"
     },
     {
-      "id": "x-beb3bf8b",
+      "id": "x-904b67f8",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@yis9617: \"하루에 1,905 스타. obra/superpowers가 오늘 깃허브 트렌딩에서 눈에 띄는 숫자를 찍었네요.\"",
-      "summary": "하루에 1,905 스타. obra/superpowers가 오늘 깃허브 트렌딩에서 눈에 띄는 숫자를 찍었네요.  에이전트한테 \"알아서 개발해줘\" 던져놓으면 매번 프롬프트를 새로 깎아야하는게 병목이었습니다. 이 저장소는 그걸 스킬 단위로 쪼개서 고정해둔 ",
+      "title": "@swyx: \"The Rise of the AI Engineer & Autonomous Workflows\"",
+      "summary": "개발 현장에서 Claude Code, Cursor, Copilot Agent를 결합해 병렬 워크트리를 자율 처리하는 최신 실무 파이프라인 정리.",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
-        "#AI_Dev",
-        "@yis9617"
+        "#AIEngineer",
+        "@swyx"
       ],
-      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/yis9617/status/2122673183019192810"
+      "background": "자율형 코딩 에이전트 실전 도입 사례가 실시간 타임라인에서 큰 반응을 얻고 있습니다.",
+      "reactions": "개발 생산성 향상과 동시에 코드 리뷰 및 보안 검증 병목 해결책에 대한 팁들이 공유되고 있습니다.",
+      "insight": "복수 모델과 CLI 에이전트를 조합하는 멀티 에이전트 작업 환경이 표준으로 자리잡는 추세입니다.",
+      "source": "https://x.com/swyx/status/1672313768228306945"
     },
     {
-      "id": "rd-7ccc1d89",
+      "id": "rd-fe5f6f93",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 1730점 및 댓글 232개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 1730 points · 💬 232 comments",
+      "title": "GPT‑6.2 Astra and Sol",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 907점 및 댓글 547개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 907 points · 💬 547 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://www.cs.cmu.edu/learn/"
+      "source": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     },
     {
-      "id": "rd-f13b7204",
+      "id": "rd-697d8f19",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 86점 및 댓글 31개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 86 points · 💬 31 comments",
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 90점 및 댓글 11개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 90 points · 💬 11 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://visualbasic.world/"
+      "source": "https://calif.io/java4shell/"
     },
     {
-      "id": "fb-27b12d75",
+      "id": "fb-26800d2c",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "수험생 옷 단추마다 스티커…재난문자로 숨긴 스마트폰 적발한다 - 한겨레",
+      "title": "엔비디아 독주 흔들리면 구글·AMD로 HBM 공급 분산… “삼성전자가 최대 수혜자” - Chosunbiz",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51Uzd1U01zZ3dLQXYzNkU2TldobGRET2IzM0g0ZmRYcWhBOEJia3pReTcwUHRtTWJwWWt4cUxDUGF6c1diTXRvMkJpMmVZaFVlN21HdVJwQ004djlreEdGWmVhNFlUb1FkUGJMLVMxTkxBVUo1?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT1Jhang1bkJKcURhVkdlT0t3ckM3ZW44YTg3eHRxenUwM3FVWkJjVG1BUEU2UEROX3RqcFNJeWdXLWdHVU0yU3NVVmU4MExmaXpxQmYzVDZpQXQ5NG9RMndMVDZfbS00MFAyQ2J5YUNxa3AyYVI1ZUEyTERXQWx5SEhR0gGWAUFVX3lxTE1obFFDTnYwVEZSbG1HeXpMZW0xVExRU3JQLXhVOFlid1lCZWl4dTk0SjBpTkY0SFR5UUg4emJnMVN3ZDdBQnluSDRSa2FubUVxZ3RUVEV6cXBvcXl5UFk2cWFaSWtDUV9JU3RuN0xMNlJ2YmxGRUNnZmlIVHItNmFfT3RmaGNQWE1mWVJuMFRFZ0JrNG9Bdw?oc=5"
     },
     {
-      "id": "google-e12b172d",
+      "id": "google-f777d934",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"gta6 출시일\"",
-      "summary": "gta6 출시일 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"배당\"",
+      "summary": "배당 관련 급상승 검색어",
+      "metric": "🔥 1000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#gta6출시일",
+        "#배당",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-68df2a9b",
+      "id": "google-26ea5fbc",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"mbk 파트너스\"",
-      "summary": "mbk 파트너스 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"wales đấu với bồ đào nha\"",
+      "summary": "wales đấu với bồ đào nha 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#mbk파트너스",
+        "#walesđấuvớibồđàonha",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "gta6 출시일",
+      "keyword": "배당",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "gta6 출시일 관련 급상승 검색어"
+      "description": "배당 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "mbk 파트너스",
+      "keyword": "wales đấu với bồ đào nha",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "mbk 파트너스 관련 급상승 검색어"
+      "description": "wales đấu với bồ đào nha 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "엔비디아 우회 수출 의혹 및 젠슨 황 복귀 논의에 대한 최신 뉴스 알려줘",
+      "keyword": "롤 점검",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "엔비디아 우회 수출 의혹 및 젠슨 황 복귀 논의에 대한 최신 뉴스 알려줘 관련 급상승 검색어"
+      "description": "롤 점검 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "최희",
+      "keyword": "수출",
       "category": "실시간 검색어",
-      "searchVolume": "5000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "최희 관련 급상승 검색어"
+      "description": "수출 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "박정훈",
+      "keyword": "수사",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "박정훈 관련 급상승 검색어"
+      "description": "수사 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "singapore đấu với brasil",
+      "keyword": "안세영",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "singapore đấu với brasil 관련 급상승 검색어"
+      "description": "안세영 관련 급상승 검색어"
     }
   ]
 }
