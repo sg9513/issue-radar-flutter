@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-19T07:01:11.812008",
-  "count": 9,
+  "updated_at": "2026-11-20T07:01:23.689128",
+  "count": 10,
   "items": [
     {
-      "id": "gh-e3d33e7d",
+      "id": "gh-650c01cd",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "free-dam-man/cloud-exit-node-deploy: 신규 급상승 프로젝트",
-      "summary": "加载技能",
-      "metric": "⭐ 289 stars · Python",
+      "title": "Bodila51/gtavi-claudecode: 신규 급상승 프로젝트",
+      "summary": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions an...",
+      "metric": "⭐ 777 stars · Python",
       "tags": [
         "#Python",
         "#OpenSource",
@@ -18,70 +18,88 @@
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/free-dam-man/cloud-exit-node-deploy"
+      "source": "https://github.com/Bodila51/gtavi-claudecode"
     },
     {
-      "id": "gh-cae659ff",
+      "id": "gh-3f8cd93c",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "xyzww888/muse-JP-Reg: 신규 급상승 프로젝트",
-      "summary": "Muse.ai pure-HTTP registration & invite-code fission WebUI (JP residential proxy ready)",
-      "metric": "⭐ 252 stars · Python",
+      "title": "sourmitocand1987/VividFrame-GPU: 신규 급상승 프로젝트",
+      "summary": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streami...",
+      "metric": "⭐ 685 stars · OpenSource",
       "tags": [
-        "#Python",
+        "#OpenSource",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/xyzww888/muse-JP-Reg"
+      "source": "https://github.com/sourmitocand1987/VividFrame-GPU"
     },
     {
-      "id": "gh-3d105fa8",
+      "id": "gh-648b7d79",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "prusa3d/prusa-connect: 신규 급상승 프로젝트",
-      "summary": "Prusa Connect: a local server for your printers",
-      "metric": "⭐ 213 stars · Go",
+      "title": "bothaggsigym1988/frameglide: 신규 급상승 프로젝트",
+      "summary": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan ...",
+      "metric": "⭐ 648 stars · OpenSource",
       "tags": [
-        "#Go",
+        "#OpenSource",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/prusa3d/prusa-connect"
+      "source": "https://github.com/bothaggsigym1988/frameglide"
     },
     {
-      "id": "x-6c2c4cbd",
+      "id": "x-167a80fc",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@leeace0: \"[파이네트워크 서밋 2일차 핵심요약]\"",
-      "summary": "[파이네트워크 서밋 2일차 핵심요약]  🌐 1. 피이 데이터랩 (Pi DataLab) 공개 개념: 인공지능(AI) 개발 및 데이터 처리가 필요한 기업·기관들과 파이 네트워크의 전 세계 신원 인증(KYC) 완료 사용자(Pioneer)를 연결하는 휴먼-인",
+      "title": "@Tesla_Optimus_K: \"51조 빛의 반도체, 애플이 삼전닉스와 붙는다\"",
+      "summary": "51조 빛의 반도체, 애플이 삼전닉스와 붙는다  애플이 17일 실리콘 포토닉스·광학 패키징 엔지니어를 뽑기 시작했어. 이달 초에도 데이터센터용 개발 인력을 구했고, M 시리즈로 AI 서버에 들어가려면 TSMC랑 광학 패키징을 실제로 깔아야 하는 단계야",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@leeace0"
+        "@Tesla_Optimus_K"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
       "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
       "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/leeace0/status/2123169381698175072"
+      "source": "https://x.com/Tesla_Optimus_K/status/2123536353380196521"
     },
     {
-      "id": "rd-c4191909",
+      "id": "x-4a5ce3ce",
+      "channel": "x",
+      "channelLabel": "X (실시간 트렌드)",
+      "badgeClass": "badge-x",
+      "title": "@nick88886666: \"[알리바바 CEO의 선언: \"2027~2028년 중국 최악의 연산 부족, 자체 칩(T-Head)으로 정면 돌\"",
+      "summary": "[알리바바 CEO의 선언: \"2027~2028년 중국 최악의 연산 부족, 자체 칩(T-Head)으로 정면 돌파\"]  1. 알리바바 그룹 에디 우 CEO가 19일 실적 컨퍼런스콜에서 \"2027년과 2028년이 중국에서 컴퓨팅 파워가 가장 부족한 2년이 ",
+      "metric": "🔥 실시간 X 화제 포스트",
+      "tags": [
+        "#X_Trending",
+        "#AI_Dev",
+        "@nick88886666"
+      ],
+      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
+      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
+      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
+      "source": "https://x.com/nick88886666/status/2123536271926767771"
+    },
+    {
+      "id": "rd-2096fb70",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Gemini 4 Neon",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 135점 및 댓글 94개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 135 points · 💬 94 comments",
+      "title": "Anthropic hits $2T in Nasdaq debut",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 684점 및 댓글 1207개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 684 points · 💬 1207 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -90,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      "source": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
     },
     {
-      "id": "rd-8c3de3c6",
+      "id": "rd-03536752",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Unauthenticated remote code execution in Nginx",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 905점 및 댓글 392개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 905 points · 💬 392 comments",
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 312점 및 댓글 34개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 312 points · 💬 34 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+      "source": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/"
     },
     {
-      "id": "fb-2b0dcf31",
+      "id": "fb-dd8bec59",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "스코틀랜드식 HTTP 상태 코드",
+      "title": "Claude, 블랙홀 물리학의 미해결 문제 두 가지 해결",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -126,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.hada.io/topic?id=37426&utm_source=geeknews&utm_medium=rss&utm_campaign=news"
+      "source": "https://news.hada.io/topic?id=37487&utm_source=geeknews&utm_medium=rss&utm_campaign=news"
     },
     {
-      "id": "google-32446be6",
+      "id": "google-eb94d3f3",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"오현규\"",
-      "summary": "오현규 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"택시\"",
+      "summary": "택시 관련 급상승 검색어",
+      "metric": "🔥 2000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#오현규",
+        "#택시",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -147,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-d209c69b",
+      "id": "google-b6d719cf",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"안세영\"",
-      "summary": "안세영 관련 급상승 검색어",
-      "metric": "🔥 1000+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"한강 벨트\"",
+      "summary": "한강 벨트 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#안세영",
+        "#한강벨트",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -168,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "오현규",
+      "keyword": "택시",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "2000+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "오현규 관련 급상승 검색어"
+      "description": "택시 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "안세영",
+      "keyword": "한강 벨트",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "안세영 관련 급상승 검색어"
+      "description": "한강 벨트 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "공무원시험",
+      "keyword": "알렉산더 즈베레프",
       "category": "실시간 검색어",
-      "searchVolume": "2000+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "공무원시험 관련 급상승 검색어"
+      "description": "알렉산더 즈베레프 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "롯데 자이언츠",
+      "keyword": "김연경",
       "category": "실시간 검색어",
-      "searchVolume": "2000+ 검색 돌파",
+      "searchVolume": "1000+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "롯데 자이언츠 관련 급상승 검색어"
+      "description": "김연경 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "미사일",
+      "keyword": "축구 감독",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "미사일 관련 급상승 검색어"
+      "description": "축구 감독 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "채무",
+      "keyword": "이정현",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "채무 관련 급상승 검색어"
+      "description": "이정현 관련 급상승 검색어"
     }
   ]
 }
