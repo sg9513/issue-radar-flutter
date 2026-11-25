@@ -1,43 +1,7 @@
 {
-  "updated_at": "2026-11-25T07:00:59.888418",
+  "updated_at": "2026-11-26T07:01:45.224102",
   "count": 10,
   "items": [
-    {
-      "id": "gh-a1f893e3",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "Marvisak/VIctory: 신규 급상승 프로젝트",
-      "summary": "An attempt at running GTA VI on PC",
-      "metric": "⭐ 11.1k stars · Rust",
-      "tags": [
-        "#Rust",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/Marvisak/VIctory"
-    },
-    {
-      "id": "gh-8be5b8d7",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "ubiquitarianism/leonida: 신규 급상승 프로젝트",
-      "summary": "A continuation of Leonida, the Xbox > PC port interface of GTA VI",
-      "metric": "⭐ 1.8k stars · Python",
-      "tags": [
-        "#Python",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/ubiquitarianism/leonida"
-    },
     {
       "id": "gh-6d519e28",
       "channel": "github",
@@ -45,7 +9,7 @@
       "badgeClass": "badge-github",
       "title": "fxceless/victory-fork: 신규 급상승 프로젝트",
       "summary": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
-      "metric": "⭐ 1.2k stars · Rust",
+      "metric": "⭐ 3.0k stars · Rust",
       "tags": [
         "#Rust",
         "#OpenSource",
@@ -55,6 +19,42 @@
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
       "source": "https://github.com/fxceless/victory-fork"
+    },
+    {
+      "id": "gh-a1b205f4",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "Belobug/VIctory-Belobug-AMD: 신규 급상승 프로젝트",
+      "summary": "오픈소스 프로젝트",
+      "metric": "⭐ 1.6k stars · Rust",
+      "tags": [
+        "#Rust",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/Belobug/VIctory-Belobug-AMD"
+    },
+    {
+      "id": "gh-65c4d796",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "ProjectLeonidaL/leonida: 신규 급상승 프로젝트",
+      "summary": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
+      "metric": "⭐ 446 stars · Rust",
+      "tags": [
+        "#Rust",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/ProjectLeonidaL/leonida"
     },
     {
       "id": "x-bb844b1e",
@@ -93,13 +93,13 @@
       "source": "https://x.com/swyx/status/1672313768228306945"
     },
     {
-      "id": "rd-3e6cbf8e",
+      "id": "rd-61bf868d",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Ternary Bonsai 2.5 27B",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 164점 및 댓글 53개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 164 points · 💬 53 comments",
+      "title": "1Password Security Incident",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 851점 및 댓글 354개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 851 points · 💬 354 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://prismml.com/news/bonsai-2-5-27b"
+      "source": "https://1password.com/blog/update-on-nov-2026-security-incident"
     },
     {
-      "id": "rd-b4c9dc43",
+      "id": "rd-6c78c3ff",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 30점 및 댓글 13개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 30 points · 💬 13 comments",
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 601점 및 댓글 434개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 601 points · 💬 434 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://news.ycombinator.com/item?id=50634426"
+      "source": "https://scottaaronson.blog/?p=10379"
     },
     {
-      "id": "fb-e7c6281a",
+      "id": "fb-62b03ea5",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "‘검은 가죽 재킷’ 벗은 젠슨 황 “오늘 제 첫 출근 날, 고맙다” - 조선일보",
+      "title": "젠슨 황, '스캔들' 뒤 매일 심리치료 고백…\"아내와 대화 힘들었다\" - 머니투데이 - 머니투데이",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUUdmQ1MtRmdoRFVPWWt5U243c1VzQXlSNXVlc3FMb3dBRVRIajZDMGZnNXRGdnNnaXA0RV9fbW40eEN6cEVuRmV3MTI4cEV6TENGNHQ5WWxsMS1uc2h6bDU3aG8zRlk4cFRpTnZpZWtSTFRwZUh1ZEhmT1VSNklxSl9FVQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43RF82cmo3M09EOVR4Y0pKa3d2MENHQ1Q4YnFBNlJrMUMtV0hpaW5NcVY0TXkzQ3BmT2ItZ3BaTFV3OERqS3Y3cnhjZmxNSzVzV085ZlRVYlpHTndlejI3Wk1WM0huallp0gFuQVVfeXFMUHlZbnl3VFZPQjczczgwY2tKVjBYNjNXSW40a0JNNUZjRXE0SHpwY2Z1TGNNVzEyczJIQ0JiS2c1cVp4bnItSnQ0ajllanl1c0ZZaHpDbWljZmZYV0FDRTVFbDJ5NFF6OE5xc3JlZWc?oc=5"
     },
     {
-      "id": "google-412bd3bc",
+      "id": "google-ad3ff697",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"홈플러스\"",
-      "summary": "홈플러스 관련 급상승 검색어",
-      "metric": "🔥 200+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"sporting vs man utd\"",
+      "summary": "sporting vs man utd 관련 급상승 검색어",
+      "metric": "🔥 500+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#홈플러스",
+        "#sportingvsmanutd",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-ef7c370f",
+      "id": "google-f986cc6b",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"암호화폐\"",
-      "summary": "암호화폐 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"공공\"",
+      "summary": "공공 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#암호화폐",
+        "#공공",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "홈플러스",
+      "keyword": "sporting vs man utd",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "홈플러스 관련 급상승 검색어"
+      "description": "sporting vs man utd 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "암호화폐",
+      "keyword": "공공",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "암호화폐 관련 급상승 검색어"
+      "description": "공공 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "노화",
+      "keyword": "에코프로비엠",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "노화 관련 급상승 검색어"
+      "description": "에코프로비엠 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "arsenal vs dortmund",
+      "keyword": "교사",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "arsenal vs dortmund 관련 급상승 검색어"
+      "description": "교사 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "정철원",
+      "keyword": "경마",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "정철원 관련 급상승 검색어"
+      "description": "경마 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "치어리더",
+      "keyword": "맨유",
       "category": "실시간 검색어",
       "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "치어리더 관련 급상승 검색어"
+      "description": "맨유 관련 급상승 검색어"
     }
   ]
 }
