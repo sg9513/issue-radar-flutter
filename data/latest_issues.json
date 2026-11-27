@@ -1,15 +1,33 @@
 {
-  "updated_at": "2026-11-27T07:01:21.200058",
+  "updated_at": "2026-11-28T07:01:29.286759",
   "count": 10,
   "items": [
     {
-      "id": "gh-a1b205f4",
+      "id": "gh-9618ceef",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "Belobug/VIctory-Belobug-AMD: 신규 급상승 프로젝트",
-      "summary": "오픈소스 프로젝트",
-      "metric": "⭐ 2.6k stars · Rust",
+      "title": "Pixel679-cmyk/windows-titlebar-blur-customizer: 신규 급상승 프로젝트",
+      "summary": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
+      "metric": "⭐ 1.5k stars · C++",
+      "tags": [
+        "#C++",
+        "#OpenSource",
+        "#Trending"
+      ],
+      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
+      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
+      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
+      "source": "https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer"
+    },
+    {
+      "id": "gh-fc5b52fd",
+      "channel": "github",
+      "channelLabel": "GitHub Trending",
+      "badgeClass": "badge-github",
+      "title": "DoubleGhosty/cool_fox: 신규 급상승 프로젝트",
+      "summary": "cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV",
+      "metric": "⭐ 851 stars · Rust",
       "tags": [
         "#Rust",
         "#OpenSource",
@@ -18,88 +36,70 @@
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/Belobug/VIctory-Belobug-AMD"
+      "source": "https://github.com/DoubleGhosty/cool_fox"
     },
     {
-      "id": "gh-b1dab39e",
+      "id": "gh-ce1f9486",
       "channel": "github",
       "channelLabel": "GitHub Trending",
       "badgeClass": "badge-github",
-      "title": "avatarmanz/VIctory-7900XTX: 신규 급상승 프로젝트",
-      "summary": "Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, lighting),...",
-      "metric": "⭐ 1.8k stars · Rust",
+      "title": "gary23w/f-ck_data_brokers: 신규 급상승 프로젝트",
+      "summary": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+      "metric": "⭐ 579 stars · Python",
       "tags": [
-        "#Rust",
+        "#Python",
         "#OpenSource",
         "#Trending"
       ],
       "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
       "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
       "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/avatarmanz/VIctory-7900XTX"
+      "source": "https://github.com/gary23w/f-ck_data_brokers"
     },
     {
-      "id": "gh-ba1f742b",
-      "channel": "github",
-      "channelLabel": "GitHub Trending",
-      "badgeClass": "badge-github",
-      "title": "alesha-pro/llm.asm: 신규 급상승 프로젝트",
-      "summary": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM...",
-      "metric": "⭐ 1.4k stars · Assembly",
-      "tags": [
-        "#Assembly",
-        "#OpenSource",
-        "#Trending"
-      ],
-      "background": "최근 3일간 깃허브에서 가장 빠른 속도로 스타를 모으며 글로벌 개발자들의 주목을 받는 신규 레포지토리입니다.",
-      "reactions": "레포지토리 이슈와 디스커션에서 활발한 기능 추가 요청 및 코드 활용 논의가 이어지고 있습니다.",
-      "insight": "오픈소스 생태계에서 현재 가장 가파르게 성장하는 개발 트렌드와 라이브러리 흐름을 대변합니다.",
-      "source": "https://github.com/alesha-pro/llm.asm"
-    },
-    {
-      "id": "x-f5856718",
+      "id": "x-bb844b1e",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@outsourcingtimes: \"고령자 고용 의무, 비용은 누가 내나\"",
-      "summary": "고령자 고용 의무, 비용은 누가 내나  68세도 일하고 싶다. 분식집 사장도 직원을 더 쓰고 싶다. 그런데 4대 보험·퇴직금·주휴수당이 발목을 잡는다.  '일법 패키지'로 계속고용 논의가 커지고 있다. 하지만 비용을 사업주에게만 떠넘기면 고령자 일자리",
+      "title": "@karpathy: \"The hottest new programming language is English\"",
+      "summary": "AI 코딩 에이전트와 LLM 프롬프트 엔지니어링의 패러다임 전환에 대한 안드레이 카파시의 통찰. 코드 구현보다 아키텍처와 명세 정의가 개발자의 본질적 역할이 되는 변화를 짚음.",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
         "#AI_Dev",
-        "@outsourcingtimes"
+        "@karpathy"
       ],
       "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/outsourcingtimes/status/2126072182870818895"
+      "reactions": "시니어 개발자들과 AI 연구원들이 에이전트 시대의 소프트웨어 엔지니어링 역량에 대해 활발히 논쟁 중입니다.",
+      "insight": "단순 코딩을 넘어 에이전트 하네스 구축과 시스템 설계 역량이 핵심 경쟁력이 되고 있습니다.",
+      "source": "https://x.com/karpathy/status/1617979122627952640"
     },
     {
-      "id": "x-6e0dd996",
+      "id": "x-904b67f8",
       "channel": "x",
       "channelLabel": "X (실시간 트렌드)",
       "badgeClass": "badge-x",
-      "title": "@C0rebrief: \"미국이 중국의 AI 칩 우회로까지 조이고 있네요. 중국 기업이 제3국 데이터센터에서 미국산 첨단 GPU를 원\"",
-      "summary": "미국이 중국의 AI 칩 우회로까지 조이고 있네요. 중국 기업이 제3국 데이터센터에서 미국산 첨단 GPU를 원격으로 쓰려면 사전 허가가 필요해졌고, 중국 암시장에선 엔비디아 B300 서버 호가가 미국 소매가의 5~6배까지 뛰었다고 해요.  오픈AI와 앤",
+      "title": "@swyx: \"The Rise of the AI Engineer & Autonomous Workflows\"",
+      "summary": "개발 현장에서 Claude Code, Cursor, Copilot Agent를 결합해 병렬 워크트리를 자율 처리하는 최신 실무 파이프라인 정리.",
       "metric": "🔥 실시간 X 화제 포스트",
       "tags": [
         "#X_Trending",
-        "#AI_Dev",
-        "@C0rebrief"
+        "#AIEngineer",
+        "@swyx"
       ],
-      "background": "X(트위터) 테크 커뮤니티에서 실시간으로 가장 활발하게 인용되고 토론 중인 포스트입니다.",
-      "reactions": "현업 개발자 및 엔지니어들이 댓글과 리포스트로 현업 적용 가능성과 견해를 나누고 있습니다.",
-      "insight": "글로벌 테크 씬의 가장 날것의 반응과 최신 현장 피드백을 실시간으로 읽을 수 있습니다.",
-      "source": "https://x.com/C0rebrief/status/2126069438869114966"
+      "background": "자율형 코딩 에이전트 실전 도입 사례가 실시간 타임라인에서 큰 반응을 얻고 있습니다.",
+      "reactions": "개발 생산성 향상과 동시에 코드 리뷰 및 보안 검증 병목 해결책에 대한 팁들이 공유되고 있습니다.",
+      "insight": "복수 모델과 CLI 에이전트를 조합하는 멀티 에이전트 작업 환경이 표준으로 자리잡는 추세입니다.",
+      "source": "https://x.com/swyx/status/1672313768228306945"
     },
     {
-      "id": "rd-5e4dbc1c",
+      "id": "rd-b4d71f5a",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 61점 및 댓글 6개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 61 points · 💬 6 comments",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 122점 및 댓글 110개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 122 points · 💬 110 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -108,16 +108,16 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/"
+      "source": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
     },
     {
-      "id": "rd-da129c5e",
+      "id": "rd-857ad53e",
       "channel": "reddit",
       "channelLabel": "커뮤니티 핫토픽 (HN / Reddit)",
       "badgeClass": "badge-reddit",
-      "title": "AMD-specific fork of llama.cpp",
-      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 221점 및 댓글 54개가 달리며 활발한 토론 진행 중.",
-      "metric": "⬆️ 221 points · 💬 54 comments",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "summary": "글로벌 개발자 커뮤니티 핫이슈: 추천 330점 및 댓글 176개가 달리며 활발한 토론 진행 중.",
+      "metric": "⬆️ 330 points · 💬 176 comments",
       "tags": [
         "#DevCommunity",
         "#TechDebate",
@@ -126,14 +126,14 @@
       "background": "글로벌 개발자 포럼에서 오늘의 가장 뜨거운 아티클로 선정되어 열띤 토론이 오가는 주제입니다.",
       "reactions": "다양한 배경의 시니어 개발자들이 실무 경험에 기반한 반론과 아키텍처 대안을 제시하고 있습니다.",
       "insight": "단순 신기술 소개를 넘어 실제 운영 단계에서의 현실적인 장단점과 교훈을 짚어볼 수 있습니다.",
-      "source": "https://devnull.land/amd-specific-llama-cpp"
+      "source": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer"
     },
     {
-      "id": "fb-a024b07f",
+      "id": "fb-ee7723c5",
       "channel": "facebook",
       "channelLabel": "IT 테크 헤드라인",
       "badgeClass": "badge-facebook",
-      "title": "Llama.cpp용 AMD 특화 패치",
+      "title": "저점에서 41억 풀매수 안철수…안랩 사상최고가 - 문화일보",
       "summary": "국내외 IT 테크 산업과 엔터프라이즈 시장을 뒤흔드는 실시간 주요 테크 헤드라인입니다.",
       "metric": "📰 주요 언론 속보",
       "tags": [
@@ -144,19 +144,19 @@
       "background": "주요 테크 미디어와 업계 관계자들의 이목이 집중된 금일의 핵심 산업 이슈입니다.",
       "reactions": "국내외 IT 기업 및 투자 커뮤니티에서 시장 영향력과 향후 판도 변화에 주목하고 있습니다.",
       "insight": "기술 트렌드가 실제 비즈니스 및 시장 생태계에 미치는 파급 효과를 확인할 수 있습니다.",
-      "source": "https://news.hada.io/topic?id=37917&utm_source=geeknews&utm_medium=rss&utm_campaign=news"
+      "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VbU43RVNBMEFMM2l5MHRUOE1KZ0tPeElURVNSNm9HMWktQWdpWXBWUUEzNXdqY2dqaDMwWEtTZ214eXFma0ZPc1ZoS0w1UVZ5?oc=5"
     },
     {
-      "id": "google-576ceed4",
+      "id": "google-169e0fdd",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"유튜버\"",
-      "summary": "유튜버 관련 급상승 검색어",
-      "metric": "🔥 1000+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"연금\"",
+      "summary": "연금 관련 급상승 검색어",
+      "metric": "🔥 5000+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#유튜버",
+        "#연금",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -165,16 +165,16 @@
       "source": "https://trends.google.com/trending/rss?geo=KR"
     },
     {
-      "id": "google-e1e5be80",
+      "id": "google-186cdb83",
       "channel": "google",
       "channelLabel": "Google Trends 급상승",
       "badgeClass": "badge-google",
-      "title": "구글 급상승 검색어: \"알테오젠\"",
-      "summary": "알테오젠 관련 급상승 검색어",
-      "metric": "🔥 100+ 검색 돌파",
+      "title": "구글 급상승 검색어: \"nottm forest vs chelsea\"",
+      "summary": "nottm forest vs chelsea 관련 급상승 검색어",
+      "metric": "🔥 200+ 검색 돌파",
       "tags": [
         "#GoogleTrends",
-        "#알테오젠",
+        "#nottmforestvschelsea",
         "#실시간검색"
       ],
       "background": "포털 실시간 검색 트래픽 기준 전일 대비 폭증한 주요 화제 키워드입니다.",
@@ -186,57 +186,57 @@
   "trends": [
     {
       "rank": 1,
-      "keyword": "유튜버",
+      "keyword": "연금",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "5000+ 검색 돌파",
       "surgeRate": "+850%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "유튜버 관련 급상승 검색어"
+      "description": "연금 관련 급상승 검색어"
     },
     {
       "rank": 2,
-      "keyword": "알테오젠",
+      "keyword": "nottm forest vs chelsea",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+800%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "알테오젠 관련 급상승 검색어"
+      "description": "nottm forest vs chelsea 관련 급상승 검색어"
     },
     {
       "rank": 3,
-      "keyword": "파운드리",
+      "keyword": "한진칼",
       "category": "실시간 검색어",
-      "searchVolume": "200+ 검색 돌파",
+      "searchVolume": "100+ 검색 돌파",
       "surgeRate": "+750%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "파운드리 관련 급상승 검색어"
+      "description": "한진칼 관련 급상승 검색어"
     },
     {
       "rank": 4,
-      "keyword": "농협",
+      "keyword": "ฟอเรสต์ พบ เชลซี",
       "category": "실시간 검색어",
-      "searchVolume": "100+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+700%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "농협 관련 급상승 검색어"
+      "description": "ฟอเรสต์ พบ เชลซี 관련 급상승 검색어"
     },
     {
       "rank": 5,
-      "keyword": "현대자동차",
+      "keyword": "크리스 리벤",
       "category": "실시간 검색어",
-      "searchVolume": "1000+ 검색 돌파",
+      "searchVolume": "200+ 검색 돌파",
       "surgeRate": "+650%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "현대자동차 관련 급상승 검색어"
+      "description": "크리스 리벤 관련 급상승 검색어"
     },
     {
       "rank": 6,
-      "keyword": "아버지",
+      "keyword": "한국수력원자력",
       "category": "실시간 검색어",
       "searchVolume": "500+ 검색 돌파",
       "surgeRate": "+600%",
       "platform": "Google Trends 실시간 랭킹",
-      "description": "아버지 관련 급상승 검색어"
+      "description": "한국수력원자력 관련 급상승 검색어"
     }
   ]
 }
